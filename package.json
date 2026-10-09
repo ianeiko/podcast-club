@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/narjes-abs/cowork-youtube_summerizer.git"
+    "url": "git+https://github.com/ianeiko/podcast-club.git"
   },
   "keywords": [],
   "author": "",
   "license": "UNLICENSED",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/narjes-abs/cowork-youtube_summerizer/issues"
+    "url": "https://github.com/ianeiko/podcast-club/issues"
   },
-  "homepage": "https://github.com/narjes-abs/cowork-youtube_summerizer#readme",
+  "homepage": "https://github.com/ianeiko/podcast-club#readme",
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.67",
     "@ai-sdk/react": "^4.0.139",
