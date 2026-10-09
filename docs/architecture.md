@@ -129,3 +129,56 @@ All icons live in `panel/static/icons.js` and share one style: outline, 24 by 24
 - Specs: `docs/superpowers/specs/` (`yt-summary`, `local-panel`, `cloud-and-effort`)
 - Plans: `docs/superpowers/plans/`
 - Agent brief: [../CLAUDE.md](../CLAUDE.md)
+
+## Podcast Club extension
+
+This branch adds a separate Next.js classroom app at the repository root. The original Python panel and its model choices remain available.
+
+### Data flow
+
+1. The student's `fetch_transcript.py` now preserves each caption's duration and optionally exports the entire track with `--json-out`. No model is used to condense or rewrite it. Language and caption provenance are recorded.
+2. `scripts/prepare_club.py` selects captions fully contained within `[0, 2700]`. Captions crossing 45:00 are excluded because word-level timestamps are unavailable. The complete 4,773-caption transcript remains in `data/full-transcript.json` and `public/transcripts/full.txt` (5:15:40).
+3. The selected 625 captions (7,077 words, last end 44:58.092) become 28 passages of roughly 1,800 characters with two captions of overlap. Tests verify full coverage and the cutoff.
+4. OpenRouter `openai/text-embedding-3-small` creates 1,536-dimensional vectors. They are upserted into a content-addressed Chroma collection with cosine distance and timestamp metadata. A self-retrieval check verifies the stored index.
+5. The script reads documents, embeddings, and metadata back from Chroma into `data/vector-index.json`. Vercel bundles this immutable snapshot. Query embeddings use the same recorded model; exact cosine search filters the window again. This is snapshot search, not a Chroma server hosted on Vercel.
+6. If `CHROMA_URL` or `CHROMA_API_KEY` is supplied, runtime queries a live Chroma server/cloud collection. Ingest with those same settings first. Remote result IDs are mapped back to the verified snapshot, preventing unrelated remote documents from entering prompts. Live server mode is optional; the deployed snapshot mode was exercised end-to-end.
+7. Vercel AI SDK 7 `ToolLoopAgent` calls `searchTranscript` on every turn; `readWindow` can expand evidence within five-minute ranges. A four-step limit and a final no-tools step bound model work. GPT-5.1 is the discussion default; GPT-6 Luna is the development option. Both use the OpenAI-compatible provider pointed at OpenRouter.
+8. The UI uses the AI SDK's streaming message transport and Streamdown. Tool results are expandable source cards. Model answers link to actual YouTube times; these remain generated text, so citations should be checked by readers. The UI includes transcript search, bounded video playback, a discussion guide, and Markdown note export.
+
+### Stack
+
+Next.js 16.4 / React 19.3 / TypeScript 7 / AI SDK 7 / Chroma Python 1.5.9 and JS 3.5.0. Node 24 and Python 3.14 were used. Exact JS dependencies are in `package-lock.json`; Python dependencies in `requirements-club.lock`.
+
+### API and storage
+
+| Endpoint | Behavior |
+|---|---|
+| `GET /api/health` | Reports index and model configuration readiness, never credentials |
+| `GET /api/session` | Reports whether the signed class cookie is valid |
+| `POST /api/session` | Validates class passcode and issues a 12-hour HttpOnly, SameSite=Strict cookie (Secure in production) |
+| `POST /api/chat` | Authenticates, validates bounded text-only history, then streams the agent response |
+
+`.env` and `.env.local` are ignored; local overrides win. The OpenRouter key is never sent to the browser. `CLUB_PASSWORD` is required for production, and rotating it invalidates all class cookies. Local development permits missing passcodes only when not on Vercel. The public transcript is readable without a passcode; the passcode controls billed chat. Login and chat also have best-effort per-instance throttling (10 login attempts / minute, 20 chat requests / minute). These counters are not distributed and should be replaced with a shared limiter for a large public service.
+
+Conversation history is stored in `sessionStorage` in the current browser tab, with a 24-message cap. Only text history is accepted by the server; client-provided tools, system roles, model IDs, and tool outputs are rejected. The model must retrieve fresh evidence. The app checks request origins against the incoming Host (Next may normalize its internal request URL). Captions and conversation content are treated as untrusted evidence in the system prompt.
+
+### Deployment
+
+The repo has been linked to the separate `podcast-club` project in the owner's Vercel account. Use `vercel project inspect --non-interactive` to verify the target before changing environment variables or deploying. Configure `OPENROUTER_API_KEY` and `CLUB_PASSWORD` as sensitive server environment variables, plus the three model identifiers from `.env.example`. Never upload `.env` files. `.vercelignore` excludes secrets, Python runtime, the local Chroma database, and the full structured source. The public transcript downloads are intentionally deployed.
+
+Run `npm run build`, then `vercel deploy --prod` from this root. No transcription or embedding happens during builds; run `npm run transcribe && npm run ingest` locally when changing source material, then redeploy. `next.config.ts` explicitly bundles the vector snapshot into the chat and health functions.
+
+### Scope and limitations
+
+This implementation prepares one fixed episode for one class. The text is the available YouTube caption track, not newly generated audio speech recognition. Caption errors and misattributed speakers can occur. Episode changes require rebuilding the dataset and updating the editorial chapter markers and starter prompts in the UI. The cutoff is enforced by retrieval; an LLM is still probabilistic, so the prompt additionally disallows answering from episode knowledge outside the window. The full video transcript is downloadable but never loaded into the agent context.
+
+Both model IDs were checked against OpenRouter's live catalog. `openai/gpt-5.1` is the available identifier used for the requested “sol 5.1”. OpenRouter's provider availability and behavior can change independently of this app.
+
+### Verification (9 October 2026)
+
+- 195 Python tests and 5 TypeScript tests pass; production compilation and type checking pass.
+- Live embedding search retrieves the Basecamp architecture passage. Both GPT-6 Luna and GPT-5.1 successfully call tools and answer with timestamp citations. A request for 1:30:00 declines to invent an answer outside the window.
+- Browser verification covers passcode sign-in, streamed discussion, source cards, transcript search, discussion guide navigation, fresh-chat reset, and a narrow layout without horizontal overflow. The video container's flex shrink issue and the local origin mismatch were fixed during verification.
+- Production: https://podcast-club.vercel.app. The deployment includes the Chroma snapshot, requires a class passcode for billed chat, and serves both transcript downloads.
+
+The production HTTP smoke test verifies anonymous rejection, invalid-passcode rejection, authenticated cookies, origin rejection, role validation, streamed evidence and citations, and SHA-256 equality of both downloaded transcripts. Run `.venv/bin/python scripts/smoke_http.py https://podcast-club.vercel.app` to repeat it (uses model credits).

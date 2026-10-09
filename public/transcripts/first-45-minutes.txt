@@ -1,0 +1,625 @@
+[0:00] - There are decades where nothing happens and weeks where decades happen.
+[0:05] And we have seen decades of progress
+[0:09] happen in the last nine months. If you're not recognizing the
+[0:14] gravity of the moment, that's the delusion. That's the
+[0:18] psychosis. Who would not get delirious if suddenly a genie
+[0:22] pops out of the bottle and says, "You can have whatever you want.
+[0:26] Every feature you've ever dreamed of in an operating
+[0:30] system, I can deliver them to you,
+[0:32] most of them in five minutes, a few in 20, and if we really go hog wild, it's
+[0:36] gonna take me two hours." I want the fastest car breaking the speed
+[0:40] limits. I want the diver watch that can go down the Mariana
+[0:44] Trench. I want the operating system that can install in less than
+[0:48] 60 seconds. One of the things I always loved about race cars was when I
+[0:51] would stumble out of the car absolutely smashed and barely able to
+[0:55] hold my head up, and I'd lay down on the garage floor and just think,
+[0:59] "Holy fuck, I'm alive." The Overton window does not open
+[1:03] itself. It opens one nudge at a time by people risking a little.
+[1:09] A little reputation, a little pushback, a little criticism, or maybe sometimes a
+[1:13] lot of reputation or a lot of criticism or a lot of pushback. Creating
+[1:17] life with another human that you love
+[1:21] is literally the peak experience of being on the planet.
+[1:28] - The following is a conversation with David Heinemeier Hansson, also
+[1:32] known as DHH, creator of Ruby on Rails, CTO of 37signals, creator of the new Omarchy
+[1:40] Linux operating system, best-selling author, race car driver,
+[1:44] and one of the most outspoken and prolific programmers
+[1:48] in the world. For the past 20-plus years, for him,
+[1:51] programming meant meticulously handcrafting beautiful Ruby
+[1:55] code. But recently, since late 2025, DHH has embraced the AI revolution and has
+[2:03] openly transformed himself into, once again, one of the
+[2:07] most outspoken and prolific agentic engineers, even
+[2:11] though he hates that term. So let's say
+[2:15] practitioners of whatever programming is becoming where AI is
+[2:19] doing most of the actual programming and the human steers the ship
+[2:23] with high-level design, vision, and taste. Yes, it's
+[2:27] true. DHH is at times controversial, but he's
+[2:31] always fearless, brilliant, and fun to talk to. This was,
+[2:35] once again, an intense, eye-opening, and wild
+[2:38] rollercoaster ride of a conversation. This is a Lex Fridman
+[2:42] podcast. To support it, please check out our sponsors in the description
+[2:46] where you can also find links to contact me, ask questions, give
+[2:50] feedback, and so on. And now, dear friends, here's DHH.
+[2:56] 13 months ago, we sat down right here to talk about programming,
+[3:00] and then everything changed. At that time, you were
+[3:04] a bit skeptical about the role of AI in the process of
+[3:08] programming, and then we went through this rapid evolution
+[3:12] of agentic engineering. So, simple question to start: How has your view on AI's
+[3:20] role in programming changed? Are you excited? Are you terrified? Are you
+[3:24] on an emotional rollercoaster ride?
+[3:26] - I am incredibly excited.
+[3:29] - You've been talking about fun a lot.
+[3:31] - There is none of the existential threat. That doesn't exist for me as an emotional
+[3:38] component. It is only there as an intellectual component, and the
+[3:41] emotional component for me is 100% pure, unadulterated joy-
+[3:47] ... and optimism and amazement that we've made
+[3:51] computers do this. And I find it so interesting that we talked
+[3:55] just 13 months ago because
+[3:59] it's like we talked in different universes, different eras.
+[4:03] I love this quote. I think it's Lenin. There are
+[4:06] decades where nothing happens and weeks where decades happen.
+[4:11] And we have seen decades of progress happen in the last nine months.
+[4:18] I mean, imagine you're there when the Wright brothers take flight.
+[4:21] Yesterday, the New York Times would write, "It's gonna be 10,000 years before we fly,"
+[4:26] and then the day after, we're up in the skies, and just a
+[4:30] few years after that, there were cross-Atlantic planes. The
+[4:33] whole world has completely changed. What a blessing to be
+[4:37] there in that moment. If you zoom out and look at all of human history, how many
+[4:41] humans got to live within the same epoch that they were born in? They never saw that
+[4:49] complete change of the world and of society. And to have
+[4:55] been blessed with two of those
+[4:58] feels just such a privilege. I got to see the internet-
+[5:02] ... from pre-internet to post-internet, and then now pre-AI, post-AI.
+[5:09] What an amazing run. How fortunate.
+[5:12] - Yeah, but the thing is, this feels like a thing that
+[5:16] happened faster than anything else in human history.
+[5:18] - Correct.
+[5:18] - So I would say somewhere around December, maybe late November-
+[5:22] - November 24.
+[5:24] - This is...
+[5:26] - That's the exact moment.
+[5:26] - You know, when they talk about when one nation invades another in a world
+[5:30] war or something like this, it-- this is how we talk about AI changing everything.
+[5:34] Yeah, the... And it really just sh- shifted for many
+[5:38] great developers. It shifted to where AI is doing some,
+[5:43] basic autocomplete, maybe writing 5, 10, 15, 20% of code to writing 80% of code.
+[5:49] - Or 100.
+[5:50] - Or 100, yeah, especially if it's not a public-facing product.
+[5:54] - To me, that's why even when I look
+[5:58] back upon our conversation a year ago, I don't actually have different
+[6:02] opinions. I have the same opinions. A year ago, I did
+[6:06] not like the mode of AI we were offered. It was the autocomplete mode,
+[6:10] or it was the AI chatbot mode. Now, the chatbot
+[6:14] I actually liked, as we talked about. Great tutor right from the get-go, great
+[6:18] way of looking things up on the internet,
+[6:21] not what was gonna replace me chiseling code. But- ... then we get the agents.
+[6:28] And the agents start out being curiosities
+[6:32] for about five minutes, and then they get amazing, and then they get,
+[6:38] "Oh my God, is this AGI?" And all of that happened since last year,
+[6:45] even just within the last nine months. We have
+[6:48] basically these few phases here. We have AI in the
+[6:53] pre-agentic era. I was excited about that, but it
+[6:56] was not fundamentally rewriting the rules of the game for me. It was
+[7:01] not completely changing how I worked. I was still chiseling
+[7:04] code, I just had a little helper, a little sidekick-
+[7:08] ... who could bounce ideas off, and I could look up this
+[7:13] information online and so forth in a more efficient way. It was just a more efficient way to do what I was
+[7:17] already doing, and it didn't change the emotional connection I had to the
+[7:21] computer. Then we get to November 24th, 2025. Opus 4.5, to
+[7:29] me, was the dividing line, where suddenly... I didn't even
+[7:33] try it on the 24th. I think I tried it on the 26th. I give it a couple of tasks,
+[7:40] and I realize that the quality of the output is uncannily close to
+[7:47] what I would've written. And I remember just leaning back and thinking,
+[7:54] "What just happened?" "How did we go from this autocomplete mess that
+[7:59] I was talking to you about in the summer to this just a
+[8:03] few short months later? How did we get both the increase in
+[8:06] intelligence and then also the increase in
+[8:10] usability?" This agent harness question where
+[8:15] I don't know if Opus 4.5 was that much smarter than Opus 4, which
+[8:19] is what we had in the summer, but its ability to
+[8:23] instrument your computer, to use tools, to check its own work,
+[8:27] to apply its intelligence in such a way that you could
+[8:31] get real meaningful work out of it, was completely different. And I think this is
+[8:38] then the big change that happens for almost anyone who paid attention and started playing with
+[8:41] it over the Christmas break. This is what I heard-
+[8:44] ... from Shopify and other places with lots of employees who
+[8:49] suddenly had a breather, suddenly had a couple of weeks to lean back and just look at what
+[8:53] was going on, gave it a try, and had the same
+[8:58] mind-blowing experience that these agents were of
+[9:01] a different genre than what we had before. And then what we get to is,
+[9:08] I'm already excited at this point. Like, by December, I'm
+[9:12] already revisiting sort of all my priors-
+[9:15] ... and going like, "Wow, if it can do this, can it also do that?"
+[9:18] "Oh, yeah, it can." And again, Opus 4.5 now looks like a retarded model.
+[9:26] And this is the magic of this progress, is you think you've reached something...
+[9:32] I remember thinking at the moment,
+[9:35] "If this is the last model we get, I'll be set. I'll be happy."
+[9:39] I could live with Opus 4.5 for the next 20 years-
+[9:42] ... and you would hear no complaints from me because it was just so incredibly
+[9:48] amazing to see an agent do all this work in the way that I wanted it
+[9:52] done. Because it was not just about it being able to solve a
+[9:55] task, it was also that I could look at its
+[9:59] path there and go, "Yep. Yep. Maybe not there,
+[10:03] but almost," and it would give you two notes. You'll get to where I wanted
+[10:07] to go in the way I wanted to go there. You could produce code I
+[10:11] wanted to merge. You could produce code that actually looked
+[10:15] beautiful if it was written in Ruby. Rust, different question. But
+[10:21] this ability for the agents to truly become an extension of how I wanted to
+[10:28] work was very novel. But then we wait just until early spring, and
+[10:35] suddenly we get sub-agents. We get harnesses that
+[10:39] can subdivide the task, and something that would take
+[10:43] Opus quite a while suddenly took a fifth of
+[10:47] the time, a tenth of the time, because it could get chopped up and
+[10:50] suddenly you got eight sub-agents working for you.
+[10:54] But both of those two first phases of the agentic age,
+[10:59] to me, still felt like I had to drive. I could tell it what
+[11:03] I wanted, where to look for it, and steer it a little bit
+[11:07] when it went off, and then we'll get there, and I would go much faster.
+[11:11] But I had to be in the driver's seat. I had to tell it what I wanted, and I
+[11:15] had to be the reviewer, the auditor of what was coming out. And then
+[11:21] finally now, this summer, with Opus 5, Fable, and Sol, GPT Sol, and
+[11:29] to a lesser extent, some of the open weight models, we've
+[11:33] arrived at a new era where I'm not telling it where we're
+[11:37] going. I'm telling it the problem I have. I'm telling it the fuzzy,
+[11:41] vague idea I have. It tells me where we're going.
+[11:47] It tells me which path to take, and I will still look at it
+[11:50] because I'm a curious person and I like computers and I like the outcome of it,
+[11:55] but I really kinda don't have to. I've become optional in the part that
+[12:01] produces the code that picks the route. Remember when early GPS systems came out?
+[12:09] They were amazing compared to looking at a map, but you still wanted to pay
+[12:12] attention. Is it gonna drive you in the harbor? I remember these newspaper
+[12:16] articles. "Ah, GPS, they're terrible because people don't pay attention, they drive in the
+[12:20] harbor." When was the last time GPS drove anyone in the harbor? Like, that just doesn't happen
+[12:24] anymore. In fact, the cars now just drive themselves, right? And this is where
+[12:28] we've arrived at now, that I can trust.
+[12:33] For the domain I'm working in right now, I can trust it,
+[12:36] and feel completely confident that it's gonna have my
+[12:40] back. It's not gonna do something stupid, and if it does something stupid, it's gonna be
+[12:44] able to recover.
+[12:45] - Mm-hmm. We should mention that there's all kinds of domains that-
+[12:48] - Correct
+[12:48] - ... programmers operate in. There's...
+[12:51] I actually don't know, but I think the most common
+[12:55] domain in development is, like, web dev CRUD. You have a database.
+[13:00] You have a user-facing interface, and it does something back and forth,
+[13:04] and it could be internal to just one person, to multiple people,
+[13:08] to a small number of people, or to the world. And I think for that,
+[13:13] it's-- I mean, you could really get to the 100% of
+[13:17] code written by AI and really if you're a good
+[13:21] programmer and you have a good intuition about what's happening behind the scenes,
+[13:25] you can legitimately not look at the code, at least that's, that's
+[13:29] been my experience. I don't know how much,
+[13:33] prior experience with programming you need to have to kinda
+[13:36] know that things are working correctly behind the scenes, like intuitively
+[13:40] by observing the ripple effects, the symptoms of the system. But I
+[13:46] think for that domain, it's close to 100%, and then there's domains like you're
+[13:52] also operating in, which is writing a Linux distribution. There, maybe there's
+[13:56] more because you're obsessed with speed and all that kind of
+[14:00] stuff. There, maybe you need to look at the code a little bit more. Then there's maybe safety
+[14:04] critical systems all the way down to operating a nuclear power
+[14:08] plant or a self-driving car. Maybe you need to look at the code more carefully.
+[14:12] - Yes, but that said, AI is insanely capable at both finding- ... and fixing
+[14:19] security vulnerabilities. This was the whole blowup about Fable. This model was
+[14:23] so capable of finding holes that a
+[14:27] an attacker could exploit that it was simply not safe to release.
+[14:30] So the irony here is that when you look at that field, it
+[14:34] seems like we've reached levels of intelligence that
+[14:39] virtually no human can match because
+[14:43] many of these security holes are about stringing combo moves together.
+[14:47] You find one little
+[14:49] vulnerability here that by itself might not be the worst thing in the world, but then you
+[14:53] combine it with four others, and suddenly you have RCE, remote command execution.
+[15:00] Humans who are able to do that are very rare. They
+[15:04] usually work inside state-sponsored organizations or other clandestine operations.
+[15:11] They're not just out and about finding things.
+[15:14] So they've gotten so good at that. The Linux distribution
+[15:18] is why I've gotten 100% AI pilled. Because I've been working on Omarchy for the last
+[15:26] three months, this version that just dropped a few days ago called Quatro.
+[15:31] And almost right from the beginning I'm working on that version,
+[15:35] the agent acceleration neared 100%, and in the last
+[15:39] two months it has been 100%. I have not written-
+[15:42] - Really?
+[15:43] - ... any of the code that's shipped in Quatro by hand. I've reviewed the shape
+[15:51] of all of it.
+[15:52] I've reviewed the individual lines of anything that's critical in the model
+[15:56] layer of the system, and I've not looked at a bunch of the UI code.
+[16:02] I have not looked at a bunch of the auxiliary code, and
+[16:06] I've not written any of the new functionality entirely by hand. But then
+[16:13] the web part, actually evolving Basecamp and Hey, our
+[16:17] professional products that have lots of users and are relatively large code
+[16:21] bases, have proven surprisingly tricky
+[16:25] to fully accelerate with agents. We just released
+[16:29] Basecamp 5 not too long ago. That was the first
+[16:32] product at 37signals that was really agent accelerated.
+[16:36] Because we were in this final sprint phase from around
+[16:40] February. By then, agents were already good.
+[16:44] And we had this early surge of, "It's solved. We can just have the
+[16:49] designers do the programming. They know what features they want. They know what shape
+[16:53] they want it to take. Let's just-- Let them vibe." And we let them vibe.
+[16:59] And we ended up with a lot of PRs that individually perhaps could have been
+[17:05] justified for a hot moment, taken all together,
+[17:09] destroyed the architecture of the system.
+[17:10] And we actually had to clean up manually, mop it up by
+[17:14] hand, by human hand, to get back to an architecture that
+[17:17] felt cohesive and coherent. So we still
+[17:21] have a bit of that-- that was February, by the way. Things are quite different now.
+[17:25] - Well, hold on a second. What's the lesson from that? Is one of the lessons from that that you have to be
+[17:29] a programmer at this stage to be able to vibe code?
+[17:33] - To be able to vibe code on existing substantial
+[17:38] - I see.
+[17:38] - ... code bases, even if they're crud, if you wanna
+[17:41] retain the element of architecture that got that system to where it was.
+[17:45] Now, that's also a point where I've stressed many
+[17:49] times that when people accuse vibe coders of
+[17:53] being slob generators, I go right back at them and say, "Have you
+[17:57] looked at the average programmer's output?" That is some
+[18:01] other slob too. If you've looked at behind the scenes of many
+[18:05] great companies and what their code bases look like after there's
+[18:08] been 3,000 humans through them, they're awful. Absolutely awful.
+[18:14] - Can you tell me the intuition you have?
+[18:17] I seem to just, stepping back and observing the different apps that we all rely
+[18:21] on, I don't know, Adobe Photoshop, all this kind of stuff. There seems to be the
+[18:24] progress on development there has not accelerated.
+[18:29] So why is it, what lessons can you draw from Basecamp, like
+[18:32] well-established, huge user base?
+[18:35] Why aren't we seeing, like, super rapid increase in, like,
+[18:39] new updates, features, all this kind of stuff in these well-established apps?
+[18:44] - Multiple reasons. I'll start with the first one that's the most critical. As
+[18:48] soon as you're having human teams work together on
+[18:51] something, the bottleneck is rarely
+[18:55] implementation. It's human bandwidth and communication.
+[18:59] When you have a product manager and a couple of designers and a VP above them and a
+[19:06] CTO above them, and everyone wants to be part
+[19:10] of the shaping process because we're all justifying why we're here,
+[19:14] that's where all the productivity goes to die. The revelation I've had working on
+[19:22] Omarchy the last three months is that to get that magical 10X,
+[19:30] 100X, in a few rare cases, 1000X productivity boost, you have
+[19:37] to interact with the agents directly, and you cannot intermediate that
+[19:44] bandwidth with another human because it's simply too slow.
+[19:49] And on the one hand, that's a bit of a bummer. I mean, I like
+[19:53] humans, and it's great to work together. But it also means we need to temper
+[19:57] our expectations with what these agents can do if
+[20:01] it's humans driving it, and you have three layers of approval and all the
+[20:05] other machinery of a large corporation. The implementation part is only a small
+[20:13] segment of it. The other thing I'd say is that most organizations don't know what
+[20:20] they want. They don't know how to make it better. They're not
+[20:24] bottlenecked on implementation. They're bottlenecked on
+[20:28] ideas. They're bottlenecked on vision. They're bottlenecked on
+[20:32] taste. And if you don't have those element
+[20:36] in excess of your implementational capacity,
+[20:40] it doesn't help. So you can make a lot of shitty ideas come true, then what?
+[20:44] Are you gonna ship that?
+[20:46] That sounds like, I don't know, something coming out of Microsoft. That's not what we're trying to
+[20:50] replicate here. That process is not actually... Because we already had
+[20:54] this. If you step back for a moment and think of
+[20:58] the towering organizations we have who have had tens of
+[21:03] thousands of programmers at their disposal.
+[21:06] I mean, I'm picking on Microsoft here. I love Microsoft some of the time, but I'll pick on
+[21:10] them in this case because they have had endless resources, endless
+[21:14] programming capacity for decades, right? This is what's
+[21:20] showing us that just being able to write a lot of code does not
+[21:23] produce great compelling software. Now, the other thing is
+[21:29] we've had this capacity for about six months. That's not very long in human
+[21:37] life cycle capacity of internalizing what's going on.
+[21:40] And I think it's actually funny that the critique of AI is,
+[21:45] why isn't it going faster?
+[21:47] What are you talking about? We've not had any other form of progress that has moved as fast
+[21:51] as AI, and you're impatient because in the last three months we haven't
+[21:54] rewritten the whole world and made it a utopia of software goodness?
+[21:59] - You're basically saying everybody should be switching to Linux now. One of the arguments is,
+[22:03] like, we can rewrite all the software that's not available in Linux in Linux.
+[22:06] Linux has been the love of my life for many years, but one of the reasons I'm still attached to Windows and
+[22:10] now, uh, Mac is because of video editing, Premiere.
+[22:15] - We're gonna fix that. But-
+[22:17] - So the question is, who's gonna build Premiere
+[22:20] and Photoshop for Linux? And it feels like one person can now.
+[22:27] - 100% one person can.
+[22:28] - And so, and I'm allowed to be impatient. In fact, me or anyone else,
+[22:35] impatience is the first step of doing it yourself, right? Like-
+[22:40] - Correct.
+[22:40] - ... and there's a community of tens of thousands of people that use Adobe
+[22:44] Premiere or DaVinci, all these non-linear video editors, that
+[22:48] know the frustrations. Everybody shares them. You can look at Reddit. You can look at
+[22:52] the forums. Everybody knows it. Uh, I don't know what it is. It may be the
+[22:55] management. It may be the meetings. All the things you've always discussed is the,
+[23:00] The bureaucracy that's inside companies that's slowing
+[23:04] everything down in the development of features. But it feels like
+[23:08] there-- if you just let some of the developers loose with a bunch of agents,
+[23:12] you can fix all that. But again, based on everything you're saying,
+[23:16] maybe the way to do that is to start over from scratch, maybe through open
+[23:21] source, or somebody launches a new company that within
+[23:25] large companies now it's hard to,
+[23:29] to really accelerate into the agentic era by letting developers just build.
+[23:33] - This is the classic innovator's dilemma. These companies have gotten so good,
+[23:39] so established at the old way, and therefore their entire
+[23:43] structure, management layers, processes are tuned for a time that no longer exists.
+[23:52] But you can't pivot that. These are super tankers. It
+[23:57] just doesn't happen. This is why
+[24:00] we're finally getting this upset in the technology industry.
+[24:04] For a while, I was very upset about the duopoly
+[24:08] between Apple and Google on mobile, because it felt like mobile was the most
+[24:12] important computing platform that we had, and I could not see
+[24:16] a path to unseat either Google or Apple
+[24:20] sitting on top of that, controlling everything, taking their toll booth money.
+[24:26] But the game has changed. This is no longer the most important
+[24:30] platform. Mobile phones are important, but there's also a lot of
+[24:34] other form factors coming, whether it's glasses or it's
+[24:38] earpieces or whatever else have you.
+[24:41] It's all in play now, but the computing platforms
+[24:44] themselves are in play for the first time in
+[24:48] probably 40 years, if you look at the desktop. Linux has been around since '91.
+[24:54] It's not taken off or taken over on the desktop. It's taken
+[24:58] over everything else. All the devices you have on your desk, your
+[25:02] fridge, your toaster, everything runs Linux,
+[25:05] except for your computer. Now, funnily enough, your Android is actually Linux, but
+[25:12] wrapped so sufficiently that you can't really recognize
+[25:15] it. But now there's an opening, and the opening
+[25:19] is exactly as you say it. If there's a piece of software you
+[25:23] depended on that bound you to Windows, it is completely within reach for
+[25:30] you personally to start rewriting it. And maybe you won't get to
+[25:34] 100% coverage, but this is the old joke about Microsoft Office.
+[25:38] "I only use 5%." Yeah, well, we all use a different 5%.
+[25:42] Well, what if we all just build our own 5%?
+[25:45] What if I just took the functionality that I need and just did
+[25:49] that? That is a completely different challenge and
+[25:53] one agents are incredibly capable of doing right now,
+[25:57] today, and I've done it a lot of times over. So one of the
+[26:01] amazing things I've found with the latest agent engaged is I have
+[26:04] become a polyglot programmer, something I was absolutely not before. I was a Ruby
+[26:13] programmer-- ... first and foremost, and then I dabbled a little bit in Bash--
+[26:17] ... when I had to. And in the last two months, I've
+[26:20] written C++. I've written three applications that have
+[26:24] shipped in Omarchy Quattro. I wrote a
+[26:29] writing app. I was using this app called Typora, which is a very nice app-
+[26:32] - Great, great app
+[26:33] - ... which in itself is based on another app called iA Writer, which was my real
+[26:37] love on the Mac- ... for a clean, simple Markdown
+[26:42] writing environment. That's where I write all my essays.
+[26:45] And then I moved to Linux, and I couldn't get iA Writer,
+[26:48] so I moved over to this other tool called Typora. It was a piece of
+[26:51] shareware, and it had a lot of features I just didn't need. And about
+[26:58] six weeks, seven weeks ago, I thought, "Do you know what? I only need 5% of Typora,"
+[27:02] which is already a basic app.
+[27:04] I literally told the agent to get going, that I wanted it written in
+[27:07] C++ and Qt, because that would fit well with the
+[27:11] aesthetic of what I was building with Quattro.
+[27:14] And in, I think, about 20 minutes, it had the first version. I
+[27:18] started using it, and it wasn't quite right. Within two days,
+[27:22] I'd given up Typora, and I wrote and have written
+[27:26] all of my essays since that moment in Omawrite.
+[27:30] - Can I ask for your advice and your vision about something? So what I find
+[27:34] with agents, you can actually write something like a replacement for
+[27:37] Typora that is perfectly customized to you, to your needs-
+[27:42] - Correct with just one user in mind. And then there's a version of that that is-
+[27:50] starts with one user in mind but expands to a larger audience. So I've actually
+[27:53] written a large number of software just for me, and I find it
+[27:58] easier to do and better to get my situation done. For
+[28:01] example, I have a video editor I've written, which is very easy to do just for me.
+[28:06] - I've never, unlike you, built something that's used by a large number of
+[28:10] people, and I find that a bit scary and intimidating. So,
+[28:14] like, at this, with this agentic age, how do you take a step
+[28:18] to actually build something that solves your problem, which I think is a
+[28:22] beautiful way to build,
+[28:24] but also expand it to actually useful for other people? Like, is there
+[28:28] advice you can give, and do you also see the problem of how
+[28:32] easy it is to just build a tool for yourself?
+[28:35] - Yes, but it is simpler than you think. By the time you're done
+[28:39] building the tool for yourself, you simply tell your agent to put it on GitHub.
+[28:43] You don't even have to do anything else. It will figure out how to put that repo on
+[28:47] GitHub. It'll write a nice README. It'll start using GitHub releases so
+[28:51] that you can track things. It'll actually be a better software
+[28:55] maintainer than you could ever be-
+[28:57] ... because it is far more patient, it is far more diligent in
+[29:00] doing the drudgery of managing open source software than you are.
+[29:05] And you can simply get on with the joy
+[29:09] of using the software that you built and evolving it as you see fit. Now,
+[29:13] this gets into the big argument we've been having in open source for a while. Is
+[29:18] AI contributions good or bad for the maintainer?
+[29:23] There's a lot of maintainers right now who are quite
+[29:26] upset about the fact that they're suddenly
+[29:30] getting a huge influx of pull requests, of
+[29:34] contributions from people who may not be the best programmers or programmers at all-
+[29:41] ... towards their software. I look at that argument and go, "Are you kidding me?"
+[29:47] Here is a vein of free contributions that you can take or don't take,
+[29:57] but you're complaining about the fact that they're there? It sounds straight
+[30:01] out of- My steak is too juicy and my lobster too
+[30:04] buttery. What are you complaining about?
+[30:07] This is the most amazing thing. This is what we proclamated for so
+[30:11] long was going to be the magic of open source, that we could
+[30:15] all contribute to it, but it was, of course, never true. There was only a small
+[30:19] subset of people who contribute to open source, and that was the very highly skilled
+[30:22] wizards. So this is a bit of a reformation moment. We had this
+[30:26] disintermediation between us and the computer, and it was this
+[30:31] class of clerics and priests called programmers,
+[30:35] and suddenly they're being disintermediated here by was
+[30:39] it the 95 theses by Luther in 1500s,
+[30:43] nailing them to the door? And one of those was very clearly about
+[30:47] the intermediation, that you should have direct access to the higher intelligence.
+[30:51] - Mm-hmm. But don't you need the wizards to keep a high bar of excellence in the code
+[30:55] base?
+[30:56] - 100% you do, which is also something that's always been true about open
+[31:00] source, which is the second argument that really grinds me. I've been
+[31:03] running open source projects for 25 years. I have literally looked
+[31:07] at the output of thousands, if not tens of thousands of
+[31:11] programmers. I feel like I have the statistical basis to
+[31:15] assert that most programmers, they suck.
+[31:21] And I don't mean that in the way it sounds.
+[31:24] That was why I paused for a hot second here. I mean, they suck in the sense
+[31:28] that they don't write the code I want to have written. They don't
+[31:32] prepare their bug reports with all the relevant
+[31:35] information. They don't detail their pull requests with the
+[31:39] why. They don't bother to fill in
+[31:42] needed code comments. They don't double-check their work. They don't
+[31:46] write unit tests. They don't do all of these things it takes to create
+[31:50] good software. But do you know who'll do all that stuff? Agents,
+[31:54] if you tell them to. They're very diligent at following your instructions,
+[31:58] most of the time, sometimes to a fault. But it actually means that if you take
+[32:02] the median programmer and their pull requests towards
+[32:06] an average open source project,
+[32:09] they're already getting outclassed by agents. I would
+[32:12] rather get an agent-written pull request to one of my
+[32:16] projects than I'd get one written by a human, and it's not just
+[32:20] because the quality's better. It's also because
+[32:24] I feel a lot less bad if I just reject it. You didn't even
+[32:28] write it, so I can simply look at what your agent wrote on your behalf and
+[32:31] go, "Eh, don't want it."
+[32:36] That's always been true in open source, and in fact, I think this is one of the problems with
+[32:40] open source maintainers. They have way too much ball of neuroticism and anxiety that
+[32:48] requires them to look upon any contribution as an obligation on their part to do
+[32:56] everything to get that to land in the code base. That's not
+[33:00] true at all. You can simply say, "No," or even better, you can say, "No, thank you."
+[33:05] And if you get into the mode of realizing that your project
+[33:10] is allowed to exist and evolve according to your
+[33:13] vision, according to your roadmap, it becomes so much
+[33:17] easier in the agentic age to decline the contributions you don't
+[33:21] want because you don't even inconvenience or hurt
+[33:25] the feelings of a human. It's just a clanker, and the clanker won't
+[33:29] mind. In fact, the producers of clankers, the
+[33:33] labs, love when you spend tokens in vain. They get paid just the same.
+[33:39] So, in my opinion, this is the absolute best
+[33:42] time to ever have been an open source software maintainer.
+[33:46] Not only do we get this wealth of glorious pull requests made by
+[33:53] agents with all the boxes ticked, we also get to tap into a
+[33:57] creativity of people who did not have access to contribute to a project before.
+[34:02] I've been running the Omarchy project now for a little over a year,
+[34:07] and in the last three months working on Quattro, I have merged over 1,000 pull
+[34:11] requests. Quite a lot of those pull requests were written by people who were
+[34:16] not classical programmers, or were programmers in other domains, not
+[34:21] Linux operating system or distribution development.
+[34:25] They were able to contribute their good ideas because of agents, and I got
+[34:29] to cherry-pick the very best of that- ... because it was there. Otherwise, those
+[34:36] ideas would just have lived inside their heads. Again,
+[34:40] Is- that is not the purpose of open source, that we tap into the collective
+[34:43] intelligence and creativity of the whole goddamn planet,
+[34:48] and we channel that towards a commons
+[34:51] where we all benefit from the combined efforts of everyone.
+[34:56] Now, there's currently, I think, about 400 unmerged pull requests on Omarchy,
+[35:01] about double what it was a week ago. So the acceleration is
+[35:05] real, but so are the tools.
+[35:08] I'm not reviewing every pull request anymore. I haven't been reviewing them for
+[35:12] quite some time now. I have the agents- ... review them for me-
+[35:17] ... and then they will give me a summary about whether something is ready for the
+[35:20] decision, the human decision. Should we merge or should we not merge?
+[35:25] I don't need to look at all the pull requests that are either wrong, duplicated,
+[35:30] bad. An agent can sort that chaff away from me. I just get to look at the pearls-
+[35:36] ... the good ideas that are ready to go, the bug
+[35:39] fixes that the agent has validated in a VM on my behalf.
+[35:44] All the drudgery of replicating and managing open source
+[35:47] projects is evaporating at lightning speed, and we are left with the,
+[35:55] with the golden juicy parts, the bone marrow of software development-
+[35:59] ... deciding what should this thing do and where should it go.
+[36:03] - Do you think the good ideas, ultimately the kernel of the good ideas
+[36:06] originated in the human mind, so the individual contributors
+[36:11] Like, can it be done by agents, or is the PR ultimately requires a human idea?
+[36:18] Like how to improve Omarchy,
+[36:21] all those incoming... Or can it all just be a pool of agents?
+[36:24] - That was the mode and the way I was thinking about agents
+[36:28] in the first agentic age from November 24 to February 28.
+[36:35] I thought all the ideas would originate with the humans. They would tell
+[36:39] their agents what to build, and off they went.
+[36:43] I don't think that's true anymore at all. I have seen things you people wouldn't
+[36:47] believe, ideas coming out of models so great that it makes me humble-
+[36:54] ... as a person who otherwise prides himself on having good ideas.
+[36:59] The agents are incredibly capable of creative thought,
+[37:04] and folks who are still stuck in the analysis that agents are parrots-
+[37:11] ... just regurgitating the ideas that are
+[37:15] already there are delusional about the progress that's been made in
+[37:19] the last six to nine months.
+[37:21] - So some people listening to you right now will say DHH is suffering from the old case
+[37:25] of AI psychosis. Can you steel man the case that you are in fact experiencing in
+[37:33] a state of delusion, like One Flew Over the Cuckoo's Nest, and can you argue against it?
+[37:37] - I'm in a state of delirium. That's what the state I'm in.
+[37:41] Because I have been working with computers for 40 years,
+[37:47] and I've never seen the things that I've seen in just the last two months.
+[37:54] A whole career, a whole life dedicating to the love of computers as my main
+[38:02] focus for the working hours and then some,
+[38:05] suddenly completely upended, suddenly completely rewritten. Of course I'm delirious.
+[38:11] Who looking at this reality is not? If you are not delirious or at the very least
+[38:19] very excited... Actually, I guess that's not even true. If you're not recognizing
+[38:23] the gravity of the moment, that's the delusion. That's the
+[38:28] psychosis. The psychosis is believing that the world is barely different. We
+[38:32] just have some electronic parrots reciting things to us. Now, in my opinion, the
+[38:39] reason this argument is actually brought up is because people are not able to see
+[38:43] the fruits of the progress. That goes to your point earlier.
+[38:47] Where is the amazing software? Why isn't American GDP running at 12% year over year?
+[38:55] First of all, give it a minute. It hasn't even been a year, goddammit.
+[39:01] But second of all, I feel on my own account, I have actually brought the pudding.
+[39:08] Omarchy Quattro launched on Friday. It's been
+[39:11] downloaded by tens of thousands of people. And they like it. They like it a lot.
+[39:17] - We should mention that going to Perplexity here, Omarchy is a highly
+[39:21] opinionated Arch Linux-based desktop distribution centered on the Hyprland
+[39:25] Wayland tiling compositor. It was created by David
+[39:28] Heinemeier Hansson, DHH, as a polished
+[39:32] developer workstation set up with a cohesive visual
+[39:35] style and many everyday tools already configured.
+[39:39] - Let me put it. Omarchy is a beautiful, modern, and opinionated Linux system.
+[39:45] It's an alternative operating system to macOS and Windows,
+[39:49] and it's freaking amazing.
+[39:50] - And the Quattro thing is you're pushing towards the age of agents.
+[39:54] - That's right. That's the latest version that we just dropped out, which is also funny.
+[39:58] The Omarchy project is only a year old and a
+[40:02] little bit. I started it last summer in between sessions at the 24 Hours of Le Mans-
+[40:08] ... where I had watched one too many YouTube videos on
+[40:12] Linux Rising and got bitten by that bug. Started working
+[40:16] on this second iteration of my
+[40:19] attempt at creating a better Linux operating system. The first iteration we talked about
+[40:23] last time was called Omakub, was built on top of an existing system called
+[40:27] Ubuntu, and it was fine. But the ambition I was able to pour into the new
+[40:33] version, Omarchy, because I started seven layers deeper down the
+[40:37] stack, was completely different, but it was still done in a pre-agentic
+[40:41] world. I wrote all those batch scripts by hand in the beginning,
+[40:47] and then I got to see the midway point where things changed over.
+[40:52] I did a couple of versions of Omarchy that had partial agent
+[40:56] acceleration, and then three months ago,
+[40:59] it was full throttle, 100%, everything is written by agents but steered by me.
+[41:04] And that just ended up being
+[41:07] a very different experience and a very different operating system
+[41:11] because I was suddenly granted a limitless ceiling on my ambition.
+[41:17] I could look at any feature in Windows, on Mac, on other Linux systems and say, "I
+[41:25] want that," and the agents would deliver. So everything I wanted was suddenly
+[41:31] within reach, which meant that I got a little delirious.
+[41:36] Who would not get delirious if suddenly a genie pops out of the bottle
+[41:40] and says, "You can have whatever you want. Every feature
+[41:44] you've ever dreamed of in an operating system-
+[41:47] ... I can deliver them to you, most of them in five minutes, a few in
+[41:51] 20, and if we really go hog wild, it's gonna take me two hours."
+[41:54] - Mm-hmm. Have you seen Requiem for a Dream, the movie? So the,
+[41:58] There's a drug-like effect here.
+[42:00] I find it personally-- We'll talk about many levels of this, but it is overwhelming
+[42:07] how much power is placed in our hands so suddenly,
+[42:11] and it's very hard to know, it's like with "The Hobbit" or something, what to do
+[42:15] with it, and I find myself truly overwhelmed with the multitasking,
+[42:20] On the verge of almost burnt out. Super excited about so many things, but ultimately
+[42:28] looking back, you want to focus on one thing and really ship
+[42:31] - I don't have that sense. I don't have the sense of overwhelm. I don't have the
+[42:35] sense of dread. I don't have the sense of distortion because I have a mission.
+[42:42] I'm going somewhere, and therefore, I can channel all this new power towards-
+[42:48] - Yeah, it's wonderful
+[42:48] - ... a singular goal and outcome, creating the perfect
+[42:51] computer. And therefore, all my investigations with AI are focused towards
+[42:59] that end. Now, I also have a day job.
+[43:02] And we also use agents there, and that's also targeted towards sort of
+[43:06] specific outcomes. But with the Omarchy experience, I got to tap in
+[43:14] straight in the back of my head and increase
+[43:18] the bandwidth between ideas arriving in my
+[43:21] brain and software emerging on the screen. It was like going from dial-up-
+[43:28] ... to fiber. I think on your podcast, Elon talked about the actual human bandwidth-
+[43:35] ... that Neuralink and other projects are trying to accelerate.
+[43:39] Like, the bandwidth we're communicating over right now is quite low because
+[43:46] we're limited by our cognition. We're limited by the rate of
+[43:50] speech. You're not limited by those things when you're working with a
+[43:53] swarm of agents. Now, let me caveat this by saying,
+[44:00] if I'd heard myself talk like this-
+[44:03] ... nine months ago, I would probably have used the label AI,
+[44:07] AI psychosis. I think it would be fitting because
+[44:11] nine months ago when people were talking like this, they weren't shipping,
+[44:15] and I think that's the ultimate difference, that there were people who saw this
+[44:19] early. I was not actually that early. As we've talked about, I
+[44:22] was rather skeptical, and I was using AI in certain ways, but I was not
+[44:26] the first person who downloaded Claude Code. I think Boris released that in end of
+[44:30] February. I don't think I installed Claude Code until
+[44:34] September. So there was about six months there where pioneers
+[44:39] saw these glimmers of what the future was gonna look like. It wasn't there
+[44:43] yet because the intelligence wasn't there. The harnesses weren't there, but they could
+[44:46] see the glimmers. I couldn't. Tobi, Tobi Lütke, the CEO of
+[44:50] Shopify and now my partner in crime on this
+[44:54] Omarchy project in part, he's gotten pilled with Omarchy as well.

@@ -1,0 +1,49 @@
+{
+  "name": "podcast-club",
+  "version": "1.0.0",
+  "description": "A transcript-grounded podcast discussion room, built on Narjes’s YouTube Summarizer.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test lib/*.test.ts",
+    "test:python": ".venv/bin/python -m pytest tests -q",
+    "transcribe": ".venv/bin/python .claude/skills/yt-summary/fetch_transcript.py https://www.youtube.com/watch?v=NYFGCESmikA --out public/transcripts/full.txt --json-out data/full-transcript.json",
+    "ingest": ".venv/bin/python scripts/prepare_club.py",
+    "prepare:transcript": ".venv/bin/python scripts/prepare_club.py --skip-index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narjes-abs/cowork-youtube_summerizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/narjes-abs/cowork-youtube_summerizer/issues"
+  },
+  "homepage": "https://github.com/narjes-abs/cowork-youtube_summerizer#readme",
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.67",
+    "@ai-sdk/react": "^4.0.139",
+    "ai": "^7.0.136",
+    "chromadb": "^3.5.0",
+    "lucide-react": "^1.54.0",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "streamdown": "^2.7.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

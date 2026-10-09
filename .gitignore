@@ -13,3 +13,14 @@ panel/data/
 # Claude Code local, machine-specific files
 .claude/settings.local.json
 .claude/launch.json
+
+# Podcast Club runtime and secrets
+.env*
+!.env.example
+node_modules/
+.next/
+.vercel/
+.venv/
+.club/
+*.tsbuildinfo
+.vercel

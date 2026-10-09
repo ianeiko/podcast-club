@@ -87,7 +87,8 @@ def fetch_video(video_id: str) -> dict:
             "This video has no retrievable captions (disabled, private, or unavailable)."
         ) from exc
     segments = [
-        {"start": float(sn.start), "text": " ".join(sn.text.split())} for sn in fetched
+        {"start": float(sn.start), "duration": float(sn.duration),
+         "text": " ".join(sn.text.split())} for sn in fetched
     ]
     if not segments:
         raise NoCaptions("The caption track for this video is empty.")
@@ -96,6 +97,8 @@ def fetch_video(video_id: str) -> dict:
         "video_id": video_id,
         "title": _fetch_title(video_id),
         "duration_seconds": int(last.start + last.duration),
+        "language": transcript.language_code,
+        "source": "youtube-auto-captions" if transcript.is_generated else "youtube-captions",
         "segments": segments,
     }
 
@@ -104,6 +107,7 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("url")
     parser.add_argument("--out", required=True, help="where to write the transcript text")
+    parser.add_argument("--json-out", help="also preserve every caption, timestamp, and duration as JSON")
     args = parser.parse_args(argv)
     try:
         video = fetch_video(extract_video_id(args.url))
@@ -113,11 +117,15 @@ def main(argv=None) -> int:
     text = format_transcript(video["segments"])
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(text)
+    if args.json_out:
+        with open(args.json_out, "w", encoding="utf-8") as f:
+            json.dump(video, f, ensure_ascii=False, indent=2)
     print(json.dumps({
         "video_id": video["video_id"],
         "title": video["title"],
         "duration_seconds": video["duration_seconds"],
         "chars": len(text),
+        "segments": len(video["segments"]),
         "transcript_path": args.out,
     }))
     return 0

@@ -1,0 +1,3383 @@
+{
+  "segments": [
+    {
+      "start": 0.1,
+      "duration": 4.72,
+      "text": "- There are decades where nothing happens and weeks where decades happen."
+    },
+    {
+      "start": 5.78,
+      "duration": 3.78,
+      "text": "And we have seen decades of progress"
+    },
+    {
+      "start": 9.62,
+      "duration": 4.19,
+      "text": "happen in the last nine months. If you're not recognizing the"
+    },
+    {
+      "start": 14.9,
+      "duration": 3.74,
+      "text": "gravity of the moment, that's the delusion. That's the"
+    },
+    {
+      "start": 18.7,
+      "duration": 3.38,
+      "text": "psychosis. Who would not get delirious if suddenly a genie"
+    },
+    {
+      "start": 22.46,
+      "duration": 3.5,
+      "text": "pops out of the bottle and says, \"You can have whatever you want."
+    },
+    {
+      "start": 26.3,
+      "duration": 3.63,
+      "text": "Every feature you've ever dreamed of in an operating"
+    },
+    {
+      "start": 30.04,
+      "duration": 1.48,
+      "text": "system, I can deliver them to you,"
+    },
+    {
+      "start": 32.439,
+      "duration": 3.981,
+      "text": "most of them in five minutes, a few in 20, and if we really go hog wild, it's"
+    },
+    {
+      "start": 36.44,
+      "duration": 3.89,
+      "text": "gonna take me two hours.\" I want the fastest car breaking the speed"
+    },
+    {
+      "start": 40.36,
+      "duration": 3.68,
+      "text": "limits. I want the diver watch that can go down the Mariana"
+    },
+    {
+      "start": 44.12,
+      "duration": 3.7,
+      "text": "Trench. I want the operating system that can install in less than"
+    },
+    {
+      "start": 48.04,
+      "duration": 3.78,
+      "text": "60 seconds. One of the things I always loved about race cars was when I"
+    },
+    {
+      "start": 51.84,
+      "duration": 3.92,
+      "text": "would stumble out of the car absolutely smashed and barely able to"
+    },
+    {
+      "start": 55.8,
+      "duration": 3.58,
+      "text": "hold my head up, and I'd lay down on the garage floor and just think,"
+    },
+    {
+      "start": 59.5,
+      "duration": 3.92,
+      "text": "\"Holy fuck, I'm alive.\" The Overton window does not open"
+    },
+    {
+      "start": 63.48,
+      "duration": 6.35,
+      "text": "itself. It opens one nudge at a time by people risking a little."
+    },
+    {
+      "start": 69.98,
+      "duration": 3.82,
+      "text": "A little reputation, a little pushback, a little criticism, or maybe sometimes a"
+    },
+    {
+      "start": 73.86,
+      "duration": 3.53,
+      "text": "lot of reputation or a lot of criticism or a lot of pushback. Creating"
+    },
+    {
+      "start": 77.44,
+      "duration": 3.2,
+      "text": "life with another human that you love"
+    },
+    {
+      "start": 81.38,
+      "duration": 4.08,
+      "text": "is literally the peak experience of being on the planet."
+    },
+    {
+      "start": 88.06,
+      "duration": 3.98,
+      "text": "- The following is a conversation with David Heinemeier Hansson, also"
+    },
+    {
+      "start": 92.08,
+      "duration": 8.16,
+      "text": "known as DHH, creator of Ruby on Rails, CTO of 37signals, creator of the new Omarchy"
+    },
+    {
+      "start": 100.42,
+      "duration": 3.4,
+      "text": "Linux operating system, best-selling author, race car driver,"
+    },
+    {
+      "start": 104.18,
+      "duration": 3.82,
+      "text": "and one of the most outspoken and prolific programmers"
+    },
+    {
+      "start": 108.2,
+      "duration": 3.22,
+      "text": "in the world. For the past 20-plus years, for him,"
+    },
+    {
+      "start": 111.87,
+      "duration": 3.71,
+      "text": "programming meant meticulously handcrafting beautiful Ruby"
+    },
+    {
+      "start": 115.68,
+      "duration": 7.68,
+      "text": "code. But recently, since late 2025, DHH has embraced the AI revolution and has"
+    },
+    {
+      "start": 123.4,
+      "duration": 3.81,
+      "text": "openly transformed himself into, once again, one of the"
+    },
+    {
+      "start": 127.24,
+      "duration": 3.94,
+      "text": "most outspoken and prolific agentic engineers, even"
+    },
+    {
+      "start": 131.22,
+      "duration": 3.22,
+      "text": "though he hates that term. So let's say"
+    },
+    {
+      "start": 135.2,
+      "duration": 3.92,
+      "text": "practitioners of whatever programming is becoming where AI is"
+    },
+    {
+      "start": 139.14,
+      "duration": 3.88,
+      "text": "doing most of the actual programming and the human steers the ship"
+    },
+    {
+      "start": 143.4,
+      "duration": 3.76,
+      "text": "with high-level design, vision, and taste. Yes, it's"
+    },
+    {
+      "start": 147.24,
+      "duration": 3.94,
+      "text": "true. DHH is at times controversial, but he's"
+    },
+    {
+      "start": 151.26,
+      "duration": 3.97,
+      "text": "always fearless, brilliant, and fun to talk to. This was,"
+    },
+    {
+      "start": 155.28,
+      "duration": 3.58,
+      "text": "once again, an intense, eye-opening, and wild"
+    },
+    {
+      "start": 158.96,
+      "duration": 3.86,
+      "text": "rollercoaster ride of a conversation. This is a Lex Fridman"
+    },
+    {
+      "start": 162.84,
+      "duration": 3.62,
+      "text": "podcast. To support it, please check out our sponsors in the description"
+    },
+    {
+      "start": 166.9,
+      "duration": 3.8,
+      "text": "where you can also find links to contact me, ask questions, give"
+    },
+    {
+      "start": 170.74,
+      "duration": 4.5,
+      "text": "feedback, and so on. And now, dear friends, here's DHH."
+    },
+    {
+      "start": 176.58,
+      "duration": 3.99,
+      "text": "13 months ago, we sat down right here to talk about programming,"
+    },
+    {
+      "start": 180.8,
+      "duration": 3.92,
+      "text": "and then everything changed. At that time, you were"
+    },
+    {
+      "start": 184.76,
+      "duration": 3.72,
+      "text": "a bit skeptical about the role of AI in the process of"
+    },
+    {
+      "start": 188.52,
+      "duration": 3.42,
+      "text": "programming, and then we went through this rapid evolution"
+    },
+    {
+      "start": 192.38,
+      "duration": 7.58,
+      "text": "of agentic engineering. So, simple question to start: How has your view on AI's"
+    },
+    {
+      "start": 200.02,
+      "duration": 3.96,
+      "text": "role in programming changed? Are you excited? Are you terrified? Are you"
+    },
+    {
+      "start": 204.14,
+      "duration": 1.74,
+      "text": "on an emotional rollercoaster ride?"
+    },
+    {
+      "start": 206.74,
+      "duration": 1.96,
+      "text": "- I am incredibly excited."
+    },
+    {
+      "start": 209.82,
+      "duration": 1.32,
+      "text": "- You've been talking about fun a lot."
+    },
+    {
+      "start": 211.42,
+      "duration": 6.87,
+      "text": "- There is none of the existential threat. That doesn't exist for me as an emotional"
+    },
+    {
+      "start": 218.32,
+      "duration": 3.48,
+      "text": "component. It is only there as an intellectual component, and the"
+    },
+    {
+      "start": 221.82,
+      "duration": 5.31,
+      "text": "emotional component for me is 100% pure, unadulterated joy-"
+    },
+    {
+      "start": 227.3,
+      "duration": 3.69,
+      "text": "... and optimism and amazement that we've made"
+    },
+    {
+      "start": 231.02,
+      "duration": 3.96,
+      "text": "computers do this. And I find it so interesting that we talked"
+    },
+    {
+      "start": 235.08,
+      "duration": 2.529,
+      "text": "just 13 months ago because"
+    },
+    {
+      "start": 239.48,
+      "duration": 3.289,
+      "text": "it's like we talked in different universes, different eras."
+    },
+    {
+      "start": 243.16,
+      "duration": 3.46,
+      "text": "I love this quote. I think it's Lenin. There are"
+    },
+    {
+      "start": 246.66,
+      "duration": 3.44,
+      "text": "decades where nothing happens and weeks where decades happen."
+    },
+    {
+      "start": 251.08,
+      "duration": 6.26,
+      "text": "And we have seen decades of progress happen in the last nine months."
+    },
+    {
+      "start": 258.22,
+      "duration": 3.48,
+      "text": "I mean, imagine you're there when the Wright brothers take flight."
+    },
+    {
+      "start": 261.88,
+      "duration": 3.93,
+      "text": "Yesterday, the New York Times would write, \"It's gonna be 10,000 years before we fly,\""
+    },
+    {
+      "start": 266.22,
+      "duration": 3.74,
+      "text": "and then the day after, we're up in the skies, and just a"
+    },
+    {
+      "start": 270.04,
+      "duration": 3.8,
+      "text": "few years after that, there were cross-Atlantic planes. The"
+    },
+    {
+      "start": 273.9,
+      "duration": 3.86,
+      "text": "whole world has completely changed. What a blessing to be"
+    },
+    {
+      "start": 277.8,
+      "duration": 3.92,
+      "text": "there in that moment. If you zoom out and look at all of human history, how many"
+    },
+    {
+      "start": 281.82,
+      "duration": 7.31,
+      "text": "humans got to live within the same epoch that they were born in? They never saw that"
+    },
+    {
+      "start": 289.16,
+      "duration": 5.16,
+      "text": "complete change of the world and of society. And to have"
+    },
+    {
+      "start": 295.16,
+      "duration": 1.8,
+      "text": "been blessed with two of those"
+    },
+    {
+      "start": 298.18,
+      "duration": 3.859,
+      "text": "feels just such a privilege. I got to see the internet-"
+    },
+    {
+      "start": 302.06,
+      "duration": 6.58,
+      "text": "... from pre-internet to post-internet, and then now pre-AI, post-AI."
+    },
+    {
+      "start": 309.44,
+      "duration": 2.64,
+      "text": "What an amazing run. How fortunate."
+    },
+    {
+      "start": 312.24,
+      "duration": 3.77,
+      "text": "- Yeah, but the thing is, this feels like a thing that"
+    },
+    {
+      "start": 316.02,
+      "duration": 2.26,
+      "text": "happened faster than anything else in human history."
+    },
+    {
+      "start": 318.58,
+      "duration": 0.08,
+      "text": "- Correct."
+    },
+    {
+      "start": 318.67,
+      "duration": 3.6,
+      "text": "- So I would say somewhere around December, maybe late November-"
+    },
+    {
+      "start": 322.62,
+      "duration": 1.12,
+      "text": "- November 24."
+    },
+    {
+      "start": 324.64,
+      "duration": 0.52,
+      "text": "- This is..."
+    },
+    {
+      "start": 326.06,
+      "duration": 0.25,
+      "text": "- That's the exact moment."
+    },
+    {
+      "start": 326.32,
+      "duration": 3.96,
+      "text": "- You know, when they talk about when one nation invades another in a world"
+    },
+    {
+      "start": 330.36,
+      "duration": 3.94,
+      "text": "war or something like this, it-- this is how we talk about AI changing everything."
+    },
+    {
+      "start": 334.58,
+      "duration": 3.66,
+      "text": "Yeah, the... And it really just sh- shifted for many"
+    },
+    {
+      "start": 338.38,
+      "duration": 3.88,
+      "text": "great developers. It shifted to where AI is doing some,"
+    },
+    {
+      "start": 343.12,
+      "duration": 6.37,
+      "text": "basic autocomplete, maybe writing 5, 10, 15, 20% of code to writing 80% of code."
+    },
+    {
+      "start": 349.66,
+      "duration": 0.49,
+      "text": "- Or 100."
+    },
+    {
+      "start": 350.5,
+      "duration": 3.65,
+      "text": "- Or 100, yeah, especially if it's not a public-facing product."
+    },
+    {
+      "start": 354.968,
+      "duration": 3.76,
+      "text": "- To me, that's why even when I look"
+    },
+    {
+      "start": 358.908,
+      "duration": 3.84,
+      "text": "back upon our conversation a year ago, I don't actually have different"
+    },
+    {
+      "start": 362.768,
+      "duration": 3.7,
+      "text": "opinions. I have the same opinions. A year ago, I did"
+    },
+    {
+      "start": 366.548,
+      "duration": 3.92,
+      "text": "not like the mode of AI we were offered. It was the autocomplete mode,"
+    },
+    {
+      "start": 370.868,
+      "duration": 3.92,
+      "text": "or it was the AI chatbot mode. Now, the chatbot"
+    },
+    {
+      "start": 374.828,
+      "duration": 3.92,
+      "text": "I actually liked, as we talked about. Great tutor right from the get-go, great"
+    },
+    {
+      "start": 378.788,
+      "duration": 1.58,
+      "text": "way of looking things up on the internet,"
+    },
+    {
+      "start": 381.468,
+      "duration": 6.96,
+      "text": "not what was gonna replace me chiseling code. But- ... then we get the agents."
+    },
+    {
+      "start": 388.708,
+      "duration": 3.7,
+      "text": "And the agents start out being curiosities"
+    },
+    {
+      "start": 392.468,
+      "duration": 5.369,
+      "text": "for about five minutes, and then they get amazing, and then they get,"
+    },
+    {
+      "start": 398.788,
+      "duration": 5.729,
+      "text": "\"Oh my God, is this AGI?\" And all of that happened since last year,"
+    },
+    {
+      "start": 405.028,
+      "duration": 3.62,
+      "text": "even just within the last nine months. We have"
+    },
+    {
+      "start": 408.688,
+      "duration": 3.95,
+      "text": "basically these few phases here. We have AI in the"
+    },
+    {
+      "start": 413.048,
+      "duration": 3.82,
+      "text": "pre-agentic era. I was excited about that, but it"
+    },
+    {
+      "start": 416.928,
+      "duration": 3.97,
+      "text": "was not fundamentally rewriting the rules of the game for me. It was"
+    },
+    {
+      "start": 421.028,
+      "duration": 3.44,
+      "text": "not completely changing how I worked. I was still chiseling"
+    },
+    {
+      "start": 424.648,
+      "duration": 4.22,
+      "text": "code, I just had a little helper, a little sidekick-"
+    },
+    {
+      "start": 428.878,
+      "duration": 3.93,
+      "text": "... who could bounce ideas off, and I could look up this"
+    },
+    {
+      "start": 433.828,
+      "duration": 3.81,
+      "text": "information online and so forth in a more efficient way. It was just a more efficient way to do what I was"
+    },
+    {
+      "start": 437.688,
+      "duration": 3.9,
+      "text": "already doing, and it didn't change the emotional connection I had to the"
+    },
+    {
+      "start": 441.608,
+      "duration": 7.9,
+      "text": "computer. Then we get to November 24th, 2025. Opus 4.5, to"
+    },
+    {
+      "start": 449.568,
+      "duration": 3.8,
+      "text": "me, was the dividing line, where suddenly... I didn't even"
+    },
+    {
+      "start": 453.428,
+      "duration": 5.96,
+      "text": "try it on the 24th. I think I tried it on the 26th. I give it a couple of tasks,"
+    },
+    {
+      "start": 460.308,
+      "duration": 7.46,
+      "text": "and I realize that the quality of the output is uncannily close to"
+    },
+    {
+      "start": 467.808,
+      "duration": 5.59,
+      "text": "what I would've written. And I remember just leaning back and thinking,"
+    },
+    {
+      "start": 474.158,
+      "duration": 5.25,
+      "text": "\"What just happened?\" \"How did we go from this autocomplete mess that"
+    },
+    {
+      "start": 479.468,
+      "duration": 3.759,
+      "text": "I was talking to you about in the summer to this just a"
+    },
+    {
+      "start": 483.287,
+      "duration": 3.621,
+      "text": "few short months later? How did we get both the increase in"
+    },
+    {
+      "start": 486.968,
+      "duration": 2.3,
+      "text": "intelligence and then also the increase in"
+    },
+    {
+      "start": 490.388,
+      "duration": 3.76,
+      "text": "usability?\" This agent harness question where"
+    },
+    {
+      "start": 495.668,
+      "duration": 3.96,
+      "text": "I don't know if Opus 4.5 was that much smarter than Opus 4, which"
+    },
+    {
+      "start": 499.688,
+      "duration": 3.86,
+      "text": "is what we had in the summer, but its ability to"
+    },
+    {
+      "start": 503.608,
+      "duration": 3.72,
+      "text": "instrument your computer, to use tools, to check its own work,"
+    },
+    {
+      "start": 507.868,
+      "duration": 3.78,
+      "text": "to apply its intelligence in such a way that you could"
+    },
+    {
+      "start": 511.708,
+      "duration": 5.6,
+      "text": "get real meaningful work out of it, was completely different. And I think this is"
+    },
+    {
+      "start": 518.168,
+      "duration": 3.68,
+      "text": "then the big change that happens for almost anyone who paid attention and started playing with"
+    },
+    {
+      "start": 521.868,
+      "duration": 2.74,
+      "text": "it over the Christmas break. This is what I heard-"
+    },
+    {
+      "start": 524.668,
+      "duration": 3.12,
+      "text": "... from Shopify and other places with lots of employees who"
+    },
+    {
+      "start": 529.108,
+      "duration": 3.99,
+      "text": "suddenly had a breather, suddenly had a couple of weeks to lean back and just look at what"
+    },
+    {
+      "start": 533.128,
+      "duration": 4.06,
+      "text": "was going on, gave it a try, and had the same"
+    },
+    {
+      "start": 538.028,
+      "duration": 3.94,
+      "text": "mind-blowing experience that these agents were of"
+    },
+    {
+      "start": 541.988,
+      "duration": 5.04,
+      "text": "a different genre than what we had before. And then what we get to is,"
+    },
+    {
+      "start": 548.668,
+      "duration": 3.94,
+      "text": "I'm already excited at this point. Like, by December, I'm"
+    },
+    {
+      "start": 552.668,
+      "duration": 2.88,
+      "text": "already revisiting sort of all my priors-"
+    },
+    {
+      "start": 555.588,
+      "duration": 3.04,
+      "text": "... and going like, \"Wow, if it can do this, can it also do that?\""
+    },
+    {
+      "start": 558.808,
+      "duration": 7.86,
+      "text": "\"Oh, yeah, it can.\" And again, Opus 4.5 now looks like a retarded model."
+    },
+    {
+      "start": 566.838,
+      "duration": 5.85,
+      "text": "And this is the magic of this progress, is you think you've reached something..."
+    },
+    {
+      "start": 572.828,
+      "duration": 2.0,
+      "text": "I remember thinking at the moment,"
+    },
+    {
+      "start": 575.678,
+      "duration": 4.16,
+      "text": "\"If this is the last model we get, I'll be set. I'll be happy.\""
+    },
+    {
+      "start": 579.928,
+      "duration": 2.83,
+      "text": "I could live with Opus 4.5 for the next 20 years-"
+    },
+    {
+      "start": 582.758,
+      "duration": 4.77,
+      "text": "... and you would hear no complaints from me because it was just so incredibly"
+    },
+    {
+      "start": 588.488,
+      "duration": 3.78,
+      "text": "amazing to see an agent do all this work in the way that I wanted it"
+    },
+    {
+      "start": 592.428,
+      "duration": 3.45,
+      "text": "done. Because it was not just about it being able to solve a"
+    },
+    {
+      "start": 595.948,
+      "duration": 3.84,
+      "text": "task, it was also that I could look at its"
+    },
+    {
+      "start": 599.848,
+      "duration": 3.83,
+      "text": "path there and go, \"Yep. Yep. Maybe not there,"
+    },
+    {
+      "start": 603.768,
+      "duration": 3.98,
+      "text": "but almost,\" and it would give you two notes. You'll get to where I wanted"
+    },
+    {
+      "start": 607.788,
+      "duration": 3.9,
+      "text": "to go in the way I wanted to go there. You could produce code I"
+    },
+    {
+      "start": 611.788,
+      "duration": 3.049,
+      "text": "wanted to merge. You could produce code that actually looked"
+    },
+    {
+      "start": 615.767,
+      "duration": 4.221,
+      "text": "beautiful if it was written in Ruby. Rust, different question. But"
+    },
+    {
+      "start": 621.628,
+      "duration": 7.24,
+      "text": "this ability for the agents to truly become an extension of how I wanted to"
+    },
+    {
+      "start": 628.908,
+      "duration": 6.309,
+      "text": "work was very novel. But then we wait just until early spring, and"
+    },
+    {
+      "start": 635.308,
+      "duration": 3.64,
+      "text": "suddenly we get sub-agents. We get harnesses that"
+    },
+    {
+      "start": 639.008,
+      "duration": 3.94,
+      "text": "can subdivide the task, and something that would take"
+    },
+    {
+      "start": 643.008,
+      "duration": 3.82,
+      "text": "Opus quite a while suddenly took a fifth of"
+    },
+    {
+      "start": 647.008,
+      "duration": 3.92,
+      "text": "the time, a tenth of the time, because it could get chopped up and"
+    },
+    {
+      "start": 650.988,
+      "duration": 2.24,
+      "text": "suddenly you got eight sub-agents working for you."
+    },
+    {
+      "start": 654.328,
+      "duration": 3.74,
+      "text": "But both of those two first phases of the agentic age,"
+    },
+    {
+      "start": 659.068,
+      "duration": 3.99,
+      "text": "to me, still felt like I had to drive. I could tell it what"
+    },
+    {
+      "start": 663.188,
+      "duration": 3.76,
+      "text": "I wanted, where to look for it, and steer it a little bit"
+    },
+    {
+      "start": 667.028,
+      "duration": 4.08,
+      "text": "when it went off, and then we'll get there, and I would go much faster."
+    },
+    {
+      "start": 671.188,
+      "duration": 3.88,
+      "text": "But I had to be in the driver's seat. I had to tell it what I wanted, and I"
+    },
+    {
+      "start": 675.148,
+      "duration": 6.12,
+      "text": "had to be the reviewer, the auditor of what was coming out. And then"
+    },
+    {
+      "start": 681.428,
+      "duration": 7.88,
+      "text": "finally now, this summer, with Opus 5, Fable, and Sol, GPT Sol, and"
+    },
+    {
+      "start": 689.728,
+      "duration": 3.94,
+      "text": "to a lesser extent, some of the open weight models, we've"
+    },
+    {
+      "start": 693.728,
+      "duration": 3.9,
+      "text": "arrived at a new era where I'm not telling it where we're"
+    },
+    {
+      "start": 697.668,
+      "duration": 3.99,
+      "text": "going. I'm telling it the problem I have. I'm telling it the fuzzy,"
+    },
+    {
+      "start": 701.968,
+      "duration": 5.33,
+      "text": "vague idea I have. It tells me where we're going."
+    },
+    {
+      "start": 707.408,
+      "duration": 3.22,
+      "text": "It tells me which path to take, and I will still look at it"
+    },
+    {
+      "start": 710.668,
+      "duration": 3.84,
+      "text": "because I'm a curious person and I like computers and I like the outcome of it,"
+    },
+    {
+      "start": 715.268,
+      "duration": 6.182,
+      "text": "but I really kinda don't have to. I've become optional in the part that"
+    },
+    {
+      "start": 721.48,
+      "duration": 6.3,
+      "text": "produces the code that picks the route. Remember when early GPS systems came out?"
+    },
+    {
+      "start": 729.12,
+      "duration": 3.62,
+      "text": "They were amazing compared to looking at a map, but you still wanted to pay"
+    },
+    {
+      "start": 732.76,
+      "duration": 3.97,
+      "text": "attention. Is it gonna drive you in the harbor? I remember these newspaper"
+    },
+    {
+      "start": 736.78,
+      "duration": 3.74,
+      "text": "articles. \"Ah, GPS, they're terrible because people don't pay attention, they drive in the"
+    },
+    {
+      "start": 740.56,
+      "duration": 3.9,
+      "text": "harbor.\" When was the last time GPS drove anyone in the harbor? Like, that just doesn't happen"
+    },
+    {
+      "start": 744.48,
+      "duration": 3.96,
+      "text": "anymore. In fact, the cars now just drive themselves, right? And this is where"
+    },
+    {
+      "start": 748.52,
+      "duration": 2.9,
+      "text": "we've arrived at now, that I can trust."
+    },
+    {
+      "start": 753.1,
+      "duration": 2.7,
+      "text": "For the domain I'm working in right now, I can trust it,"
+    },
+    {
+      "start": 756.8,
+      "duration": 3.84,
+      "text": "and feel completely confident that it's gonna have my"
+    },
+    {
+      "start": 760.68,
+      "duration": 3.86,
+      "text": "back. It's not gonna do something stupid, and if it does something stupid, it's gonna be"
+    },
+    {
+      "start": 764.58,
+      "duration": 0.62,
+      "text": "able to recover."
+    },
+    {
+      "start": 765.42,
+      "duration": 3.08,
+      "text": "- Mm-hmm. We should mention that there's all kinds of domains that-"
+    },
+    {
+      "start": 768.62,
+      "duration": 0.24,
+      "text": "- Correct"
+    },
+    {
+      "start": 768.9,
+      "duration": 1.78,
+      "text": "- ... programmers operate in. There's..."
+    },
+    {
+      "start": 771.52,
+      "duration": 3.06,
+      "text": "I actually don't know, but I think the most common"
+    },
+    {
+      "start": 775.7,
+      "duration": 4.83,
+      "text": "domain in development is, like, web dev CRUD. You have a database."
+    },
+    {
+      "start": 780.54,
+      "duration": 3.54,
+      "text": "You have a user-facing interface, and it does something back and forth,"
+    },
+    {
+      "start": 784.62,
+      "duration": 3.99,
+      "text": "and it could be internal to just one person, to multiple people,"
+    },
+    {
+      "start": 788.72,
+      "duration": 3.79,
+      "text": "to a small number of people, or to the world. And I think for that,"
+    },
+    {
+      "start": 793.82,
+      "duration": 3.58,
+      "text": "it's-- I mean, you could really get to the 100% of"
+    },
+    {
+      "start": 797.6,
+      "duration": 3.58,
+      "text": "code written by AI and really if you're a good"
+    },
+    {
+      "start": 801.28,
+      "duration": 3.68,
+      "text": "programmer and you have a good intuition about what's happening behind the scenes,"
+    },
+    {
+      "start": 805.52,
+      "duration": 3.9,
+      "text": "you can legitimately not look at the code, at least that's, that's"
+    },
+    {
+      "start": 809.46,
+      "duration": 2.5,
+      "text": "been my experience. I don't know how much,"
+    },
+    {
+      "start": 813.01,
+      "duration": 3.21,
+      "text": "prior experience with programming you need to have to kinda"
+    },
+    {
+      "start": 816.56,
+      "duration": 3.8,
+      "text": "know that things are working correctly behind the scenes, like intuitively"
+    },
+    {
+      "start": 820.48,
+      "duration": 6.1,
+      "text": "by observing the ripple effects, the symptoms of the system. But I"
+    },
+    {
+      "start": 826.62,
+      "duration": 6.08,
+      "text": "think for that domain, it's close to 100%, and then there's domains like you're"
+    },
+    {
+      "start": 832.78,
+      "duration": 3.98,
+      "text": "also operating in, which is writing a Linux distribution. There, maybe there's"
+    },
+    {
+      "start": 836.8,
+      "duration": 3.68,
+      "text": "more because you're obsessed with speed and all that kind of"
+    },
+    {
+      "start": 840.52,
+      "duration": 3.95,
+      "text": "stuff. There, maybe you need to look at the code a little bit more. Then there's maybe safety"
+    },
+    {
+      "start": 844.56,
+      "duration": 3.499,
+      "text": "critical systems all the way down to operating a nuclear power"
+    },
+    {
+      "start": 848.16,
+      "duration": 4.04,
+      "text": "plant or a self-driving car. Maybe you need to look at the code more carefully."
+    },
+    {
+      "start": 852.28,
+      "duration": 6.23,
+      "text": "- Yes, but that said, AI is insanely capable at both finding- ... and fixing"
+    },
+    {
+      "start": 859.6,
+      "duration": 3.84,
+      "text": "security vulnerabilities. This was the whole blowup about Fable. This model was"
+    },
+    {
+      "start": 863.56,
+      "duration": 3.3,
+      "text": "so capable of finding holes that a"
+    },
+    {
+      "start": 867.3,
+      "duration": 3.02,
+      "text": "an attacker could exploit that it was simply not safe to release."
+    },
+    {
+      "start": 870.9,
+      "duration": 3.66,
+      "text": "So the irony here is that when you look at that field, it"
+    },
+    {
+      "start": 874.64,
+      "duration": 4.26,
+      "text": "seems like we've reached levels of intelligence that"
+    },
+    {
+      "start": 879.76,
+      "duration": 3.38,
+      "text": "virtually no human can match because"
+    },
+    {
+      "start": 883.66,
+      "duration": 3.64,
+      "text": "many of these security holes are about stringing combo moves together."
+    },
+    {
+      "start": 887.76,
+      "duration": 1.26,
+      "text": "You find one little"
+    },
+    {
+      "start": 889.9,
+      "duration": 3.96,
+      "text": "vulnerability here that by itself might not be the worst thing in the world, but then you"
+    },
+    {
+      "start": 893.9,
+      "duration": 5.38,
+      "text": "combine it with four others, and suddenly you have RCE, remote command execution."
+    },
+    {
+      "start": 900.54,
+      "duration": 3.9,
+      "text": "Humans who are able to do that are very rare. They"
+    },
+    {
+      "start": 904.5,
+      "duration": 6.04,
+      "text": "usually work inside state-sponsored organizations or other clandestine operations."
+    },
+    {
+      "start": 911.34,
+      "duration": 2.54,
+      "text": "They're not just out and about finding things."
+    },
+    {
+      "start": 914.76,
+      "duration": 3.36,
+      "text": "So they've gotten so good at that. The Linux distribution"
+    },
+    {
+      "start": 918.24,
+      "duration": 7.82,
+      "text": "is why I've gotten 100% AI pilled. Because I've been working on Omarchy for the last"
+    },
+    {
+      "start": 926.12,
+      "duration": 3.5,
+      "text": "three months, this version that just dropped a few days ago called Quatro."
+    },
+    {
+      "start": 931.02,
+      "duration": 3.98,
+      "text": "And almost right from the beginning I'm working on that version,"
+    },
+    {
+      "start": 935.42,
+      "duration": 3.78,
+      "text": "the agent acceleration neared 100%, and in the last"
+    },
+    {
+      "start": 939.28,
+      "duration": 3.28,
+      "text": "two months it has been 100%. I have not written-"
+    },
+    {
+      "start": 942.92,
+      "duration": 0.26,
+      "text": "- Really?"
+    },
+    {
+      "start": 943.25,
+      "duration": 7.79,
+      "text": "- ... any of the code that's shipped in Quatro by hand. I've reviewed the shape"
+    },
+    {
+      "start": 951.54,
+      "duration": 0.589,
+      "text": "of all of it."
+    },
+    {
+      "start": 952.72,
+      "duration": 3.94,
+      "text": "I've reviewed the individual lines of anything that's critical in the model"
+    },
+    {
+      "start": 956.78,
+      "duration": 4.56,
+      "text": "layer of the system, and I've not looked at a bunch of the UI code."
+    },
+    {
+      "start": 962.24,
+      "duration": 3.74,
+      "text": "I have not looked at a bunch of the auxiliary code, and"
+    },
+    {
+      "start": 966.98,
+      "duration": 5.66,
+      "text": "I've not written any of the new functionality entirely by hand. But then"
+    },
+    {
+      "start": 973.56,
+      "duration": 3.94,
+      "text": "the web part, actually evolving Basecamp and Hey, our"
+    },
+    {
+      "start": 977.54,
+      "duration": 3.8,
+      "text": "professional products that have lots of users and are relatively large code"
+    },
+    {
+      "start": 981.42,
+      "duration": 3.8,
+      "text": "bases, have proven surprisingly tricky"
+    },
+    {
+      "start": 985.32,
+      "duration": 3.84,
+      "text": "to fully accelerate with agents. We just released"
+    },
+    {
+      "start": 989.18,
+      "duration": 3.11,
+      "text": "Basecamp 5 not too long ago. That was the first"
+    },
+    {
+      "start": 992.32,
+      "duration": 3.82,
+      "text": "product at 37signals that was really agent accelerated."
+    },
+    {
+      "start": 996.76,
+      "duration": 3.9,
+      "text": "Because we were in this final sprint phase from around"
+    },
+    {
+      "start": 1000.7,
+      "duration": 2.87,
+      "text": "February. By then, agents were already good."
+    },
+    {
+      "start": 1004.02,
+      "duration": 5.77,
+      "text": "And we had this early surge of, \"It's solved. We can just have the"
+    },
+    {
+      "start": 1009.8,
+      "duration": 3.94,
+      "text": "designers do the programming. They know what features they want. They know what shape"
+    },
+    {
+      "start": 1013.86,
+      "duration": 5.6,
+      "text": "they want it to take. Let's just-- Let them vibe.\" And we let them vibe."
+    },
+    {
+      "start": 1019.66,
+      "duration": 5.6,
+      "text": "And we ended up with a lot of PRs that individually perhaps could have been"
+    },
+    {
+      "start": 1025.32,
+      "duration": 3.48,
+      "text": "justified for a hot moment, taken all together,"
+    },
+    {
+      "start": 1029.04,
+      "duration": 1.6,
+      "text": "destroyed the architecture of the system."
+    },
+    {
+      "start": 1030.69,
+      "duration": 3.65,
+      "text": "And we actually had to clean up manually, mop it up by"
+    },
+    {
+      "start": 1034.42,
+      "duration": 3.49,
+      "text": "hand, by human hand, to get back to an architecture that"
+    },
+    {
+      "start": 1037.94,
+      "duration": 3.87,
+      "text": "felt cohesive and coherent. So we still"
+    },
+    {
+      "start": 1041.88,
+      "duration": 2.98,
+      "text": "have a bit of that-- that was February, by the way. Things are quite different now."
+    },
+    {
+      "start": 1045.02,
+      "duration": 3.92,
+      "text": "- Well, hold on a second. What's the lesson from that? Is one of the lessons from that that you have to be"
+    },
+    {
+      "start": 1049.0,
+      "duration": 4.08,
+      "text": "a programmer at this stage to be able to vibe code?"
+    },
+    {
+      "start": 1053.7,
+      "duration": 4.38,
+      "text": "- To be able to vibe code on existing substantial"
+    },
+    {
+      "start": 1058.12,
+      "duration": 0.03,
+      "text": "- I see."
+    },
+    {
+      "start": 1058.18,
+      "duration": 3.58,
+      "text": "- ... code bases, even if they're crud, if you wanna"
+    },
+    {
+      "start": 1061.8,
+      "duration": 3.58,
+      "text": "retain the element of architecture that got that system to where it was."
+    },
+    {
+      "start": 1065.44,
+      "duration": 3.96,
+      "text": "Now, that's also a point where I've stressed many"
+    },
+    {
+      "start": 1069.44,
+      "duration": 3.9,
+      "text": "times that when people accuse vibe coders of"
+    },
+    {
+      "start": 1073.38,
+      "duration": 3.94,
+      "text": "being slob generators, I go right back at them and say, \"Have you"
+    },
+    {
+      "start": 1077.36,
+      "duration": 3.944,
+      "text": "looked at the average programmer's output?\" That is some"
+    },
+    {
+      "start": 1081.384,
+      "duration": 3.46,
+      "text": "other slob too. If you've looked at behind the scenes of many"
+    },
+    {
+      "start": 1085.024,
+      "duration": 3.88,
+      "text": "great companies and what their code bases look like after there's"
+    },
+    {
+      "start": 1088.944,
+      "duration": 5.42,
+      "text": "been 3,000 humans through them, they're awful. Absolutely awful."
+    },
+    {
+      "start": 1094.684,
+      "duration": 1.7,
+      "text": "- Can you tell me the intuition you have?"
+    },
+    {
+      "start": 1097.224,
+      "duration": 3.92,
+      "text": "I seem to just, stepping back and observing the different apps that we all rely"
+    },
+    {
+      "start": 1101.264,
+      "duration": 3.64,
+      "text": "on, I don't know, Adobe Photoshop, all this kind of stuff. There seems to be the"
+    },
+    {
+      "start": 1104.964,
+      "duration": 3.4,
+      "text": "progress on development there has not accelerated."
+    },
+    {
+      "start": 1109.164,
+      "duration": 3.12,
+      "text": "So why is it, what lessons can you draw from Basecamp, like"
+    },
+    {
+      "start": 1112.404,
+      "duration": 1.8,
+      "text": "well-established, huge user base?"
+    },
+    {
+      "start": 1115.304,
+      "duration": 3.88,
+      "text": "Why aren't we seeing, like, super rapid increase in, like,"
+    },
+    {
+      "start": 1119.404,
+      "duration": 3.8,
+      "text": "new updates, features, all this kind of stuff in these well-established apps?"
+    },
+    {
+      "start": 1124.064,
+      "duration": 3.98,
+      "text": "- Multiple reasons. I'll start with the first one that's the most critical. As"
+    },
+    {
+      "start": 1128.144,
+      "duration": 3.68,
+      "text": "soon as you're having human teams work together on"
+    },
+    {
+      "start": 1131.884,
+      "duration": 3.3,
+      "text": "something, the bottleneck is rarely"
+    },
+    {
+      "start": 1135.224,
+      "duration": 3.86,
+      "text": "implementation. It's human bandwidth and communication."
+    },
+    {
+      "start": 1139.104,
+      "duration": 6.12,
+      "text": "When you have a product manager and a couple of designers and a VP above them and a"
+    },
+    {
+      "start": 1146.184,
+      "duration": 3.94,
+      "text": "CTO above them, and everyone wants to be part"
+    },
+    {
+      "start": 1150.184,
+      "duration": 3.33,
+      "text": "of the shaping process because we're all justifying why we're here,"
+    },
+    {
+      "start": 1154.834,
+      "duration": 8.03,
+      "text": "that's where all the productivity goes to die. The revelation I've had working on"
+    },
+    {
+      "start": 1162.904,
+      "duration": 6.78,
+      "text": "Omarchy the last three months is that to get that magical 10X,"
+    },
+    {
+      "start": 1170.404,
+      "duration": 7.0,
+      "text": "100X, in a few rare cases, 1000X productivity boost, you have"
+    },
+    {
+      "start": 1177.504,
+      "duration": 5.7,
+      "text": "to interact with the agents directly, and you cannot intermediate that"
+    },
+    {
+      "start": 1184.084,
+      "duration": 4.36,
+      "text": "bandwidth with another human because it's simply too slow."
+    },
+    {
+      "start": 1189.304,
+      "duration": 3.92,
+      "text": "And on the one hand, that's a bit of a bummer. I mean, I like"
+    },
+    {
+      "start": 1193.244,
+      "duration": 3.86,
+      "text": "humans, and it's great to work together. But it also means we need to temper"
+    },
+    {
+      "start": 1197.124,
+      "duration": 3.839,
+      "text": "our expectations with what these agents can do if"
+    },
+    {
+      "start": 1201.024,
+      "duration": 3.94,
+      "text": "it's humans driving it, and you have three layers of approval and all the"
+    },
+    {
+      "start": 1205.024,
+      "duration": 8.0,
+      "text": "other machinery of a large corporation. The implementation part is only a small"
+    },
+    {
+      "start": 1213.044,
+      "duration": 7.55,
+      "text": "segment of it. The other thing I'd say is that most organizations don't know what"
+    },
+    {
+      "start": 1220.624,
+      "duration": 3.62,
+      "text": "they want. They don't know how to make it better. They're not"
+    },
+    {
+      "start": 1224.284,
+      "duration": 3.88,
+      "text": "bottlenecked on implementation. They're bottlenecked on"
+    },
+    {
+      "start": 1228.244,
+      "duration": 3.82,
+      "text": "ideas. They're bottlenecked on vision. They're bottlenecked on"
+    },
+    {
+      "start": 1232.204,
+      "duration": 3.8,
+      "text": "taste. And if you don't have those element"
+    },
+    {
+      "start": 1236.064,
+      "duration": 3.969,
+      "text": "in excess of your implementational capacity,"
+    },
+    {
+      "start": 1240.484,
+      "duration": 3.96,
+      "text": "it doesn't help. So you can make a lot of shitty ideas come true, then what?"
+    },
+    {
+      "start": 1244.704,
+      "duration": 0.94,
+      "text": "Are you gonna ship that?"
+    },
+    {
+      "start": 1246.504,
+      "duration": 3.999,
+      "text": "That sounds like, I don't know, something coming out of Microsoft. That's not what we're trying to"
+    },
+    {
+      "start": 1250.544,
+      "duration": 3.84,
+      "text": "replicate here. That process is not actually... Because we already had"
+    },
+    {
+      "start": 1254.444,
+      "duration": 3.5,
+      "text": "this. If you step back for a moment and think of"
+    },
+    {
+      "start": 1258.964,
+      "duration": 3.96,
+      "text": "the towering organizations we have who have had tens of"
+    },
+    {
+      "start": 1263.084,
+      "duration": 2.36,
+      "text": "thousands of programmers at their disposal."
+    },
+    {
+      "start": 1266.624,
+      "duration": 3.98,
+      "text": "I mean, I'm picking on Microsoft here. I love Microsoft some of the time, but I'll pick on"
+    },
+    {
+      "start": 1270.644,
+      "duration": 3.92,
+      "text": "them in this case because they have had endless resources, endless"
+    },
+    {
+      "start": 1274.844,
+      "duration": 4.56,
+      "text": "programming capacity for decades, right? This is what's"
+    },
+    {
+      "start": 1280.644,
+      "duration": 3.31,
+      "text": "showing us that just being able to write a lot of code does not"
+    },
+    {
+      "start": 1283.984,
+      "duration": 3.989,
+      "text": "produce great compelling software. Now, the other thing is"
+    },
+    {
+      "start": 1289.164,
+      "duration": 6.98,
+      "text": "we've had this capacity for about six months. That's not very long in human"
+    },
+    {
+      "start": 1297.284,
+      "duration": 3.56,
+      "text": "life cycle capacity of internalizing what's going on."
+    },
+    {
+      "start": 1300.884,
+      "duration": 3.98,
+      "text": "And I think it's actually funny that the critique of AI is,"
+    },
+    {
+      "start": 1305.344,
+      "duration": 1.82,
+      "text": "why isn't it going faster?"
+    },
+    {
+      "start": 1307.344,
+      "duration": 3.9,
+      "text": "What are you talking about? We've not had any other form of progress that has moved as fast"
+    },
+    {
+      "start": 1311.284,
+      "duration": 3.62,
+      "text": "as AI, and you're impatient because in the last three months we haven't"
+    },
+    {
+      "start": 1314.944,
+      "duration": 3.9,
+      "text": "rewritten the whole world and made it a utopia of software goodness?"
+    },
+    {
+      "start": 1319.084,
+      "duration": 3.97,
+      "text": "- You're basically saying everybody should be switching to Linux now. One of the arguments is,"
+    },
+    {
+      "start": 1323.144,
+      "duration": 3.08,
+      "text": "like, we can rewrite all the software that's not available in Linux in Linux."
+    },
+    {
+      "start": 1326.944,
+      "duration": 3.98,
+      "text": "Linux has been the love of my life for many years, but one of the reasons I'm still attached to Windows and"
+    },
+    {
+      "start": 1330.964,
+      "duration": 4.66,
+      "text": "now, uh, Mac is because of video editing, Premiere."
+    },
+    {
+      "start": 1335.704,
+      "duration": 1.07,
+      "text": "- We're gonna fix that. But-"
+    },
+    {
+      "start": 1337.084,
+      "duration": 3.03,
+      "text": "- So the question is, who's gonna build Premiere"
+    },
+    {
+      "start": 1340.984,
+      "duration": 5.9,
+      "text": "and Photoshop for Linux? And it feels like one person can now."
+    },
+    {
+      "start": 1347.184,
+      "duration": 1.659,
+      "text": "- 100% one person can."
+    },
+    {
+      "start": 1348.864,
+      "duration": 5.18,
+      "text": "- And so, and I'm allowed to be impatient. In fact, me or anyone else,"
+    },
+    {
+      "start": 1355.344,
+      "duration": 4.64,
+      "text": "impatience is the first step of doing it yourself, right? Like-"
+    },
+    {
+      "start": 1360.024,
+      "duration": 0.28,
+      "text": "- Correct."
+    },
+    {
+      "start": 1360.544,
+      "duration": 3.48,
+      "text": "- ... and there's a community of tens of thousands of people that use Adobe"
+    },
+    {
+      "start": 1364.124,
+      "duration": 3.99,
+      "text": "Premiere or DaVinci, all these non-linear video editors, that"
+    },
+    {
+      "start": 1368.184,
+      "duration": 3.92,
+      "text": "know the frustrations. Everybody shares them. You can look at Reddit. You can look at"
+    },
+    {
+      "start": 1372.124,
+      "duration": 3.78,
+      "text": "the forums. Everybody knows it. Uh, I don't know what it is. It may be the"
+    },
+    {
+      "start": 1375.944,
+      "duration": 3.62,
+      "text": "management. It may be the meetings. All the things you've always discussed is the,"
+    },
+    {
+      "start": 1380.174,
+      "duration": 3.89,
+      "text": "The bureaucracy that's inside companies that's slowing"
+    },
+    {
+      "start": 1384.124,
+      "duration": 2.92,
+      "text": "everything down in the development of features. But it feels like"
+    },
+    {
+      "start": 1388.064,
+      "duration": 3.9,
+      "text": "there-- if you just let some of the developers loose with a bunch of agents,"
+    },
+    {
+      "start": 1392.204,
+      "duration": 3.86,
+      "text": "you can fix all that. But again, based on everything you're saying,"
+    },
+    {
+      "start": 1396.504,
+      "duration": 5.26,
+      "text": "maybe the way to do that is to start over from scratch, maybe through open"
+    },
+    {
+      "start": 1401.864,
+      "duration": 3.75,
+      "text": "source, or somebody launches a new company that within"
+    },
+    {
+      "start": 1405.684,
+      "duration": 2.04,
+      "text": "large companies now it's hard to,"
+    },
+    {
+      "start": 1409.164,
+      "duration": 3.94,
+      "text": "to really accelerate into the agentic era by letting developers just build."
+    },
+    {
+      "start": 1413.424,
+      "duration": 5.38,
+      "text": "- This is the classic innovator's dilemma. These companies have gotten so good,"
+    },
+    {
+      "start": 1419.704,
+      "duration": 3.9,
+      "text": "so established at the old way, and therefore their entire"
+    },
+    {
+      "start": 1423.744,
+      "duration": 7.68,
+      "text": "structure, management layers, processes are tuned for a time that no longer exists."
+    },
+    {
+      "start": 1432.084,
+      "duration": 5.22,
+      "text": "But you can't pivot that. These are super tankers. It"
+    },
+    {
+      "start": 1437.364,
+      "duration": 2.4,
+      "text": "just doesn't happen. This is why"
+    },
+    {
+      "start": 1440.732,
+      "duration": 3.4,
+      "text": "we're finally getting this upset in the technology industry."
+    },
+    {
+      "start": 1444.912,
+      "duration": 3.82,
+      "text": "For a while, I was very upset about the duopoly"
+    },
+    {
+      "start": 1448.992,
+      "duration": 3.72,
+      "text": "between Apple and Google on mobile, because it felt like mobile was the most"
+    },
+    {
+      "start": 1452.752,
+      "duration": 3.96,
+      "text": "important computing platform that we had, and I could not see"
+    },
+    {
+      "start": 1456.832,
+      "duration": 3.56,
+      "text": "a path to unseat either Google or Apple"
+    },
+    {
+      "start": 1460.892,
+      "duration": 4.2,
+      "text": "sitting on top of that, controlling everything, taking their toll booth money."
+    },
+    {
+      "start": 1466.472,
+      "duration": 3.5,
+      "text": "But the game has changed. This is no longer the most important"
+    },
+    {
+      "start": 1470.532,
+      "duration": 3.68,
+      "text": "platform. Mobile phones are important, but there's also a lot of"
+    },
+    {
+      "start": 1474.312,
+      "duration": 3.8,
+      "text": "other form factors coming, whether it's glasses or it's"
+    },
+    {
+      "start": 1478.152,
+      "duration": 2.2,
+      "text": "earpieces or whatever else have you."
+    },
+    {
+      "start": 1481.392,
+      "duration": 2.94,
+      "text": "It's all in play now, but the computing platforms"
+    },
+    {
+      "start": 1484.392,
+      "duration": 3.68,
+      "text": "themselves are in play for the first time in"
+    },
+    {
+      "start": 1488.132,
+      "duration": 5.8,
+      "text": "probably 40 years, if you look at the desktop. Linux has been around since '91."
+    },
+    {
+      "start": 1494.752,
+      "duration": 3.92,
+      "text": "It's not taken off or taken over on the desktop. It's taken"
+    },
+    {
+      "start": 1498.732,
+      "duration": 3.56,
+      "text": "over everything else. All the devices you have on your desk, your"
+    },
+    {
+      "start": 1502.452,
+      "duration": 3.04,
+      "text": "fridge, your toaster, everything runs Linux,"
+    },
+    {
+      "start": 1505.552,
+      "duration": 7.32,
+      "text": "except for your computer. Now, funnily enough, your Android is actually Linux, but"
+    },
+    {
+      "start": 1512.912,
+      "duration": 3.02,
+      "text": "wrapped so sufficiently that you can't really recognize"
+    },
+    {
+      "start": 1515.972,
+      "duration": 3.17,
+      "text": "it. But now there's an opening, and the opening"
+    },
+    {
+      "start": 1519.272,
+      "duration": 3.94,
+      "text": "is exactly as you say it. If there's a piece of software you"
+    },
+    {
+      "start": 1523.232,
+      "duration": 7.2,
+      "text": "depended on that bound you to Windows, it is completely within reach for"
+    },
+    {
+      "start": 1530.492,
+      "duration": 3.86,
+      "text": "you personally to start rewriting it. And maybe you won't get to"
+    },
+    {
+      "start": 1534.432,
+      "duration": 3.42,
+      "text": "100% coverage, but this is the old joke about Microsoft Office."
+    },
+    {
+      "start": 1538.812,
+      "duration": 3.76,
+      "text": "\"I only use 5%.\" Yeah, well, we all use a different 5%."
+    },
+    {
+      "start": 1542.632,
+      "duration": 2.79,
+      "text": "Well, what if we all just build our own 5%?"
+    },
+    {
+      "start": 1545.972,
+      "duration": 3.73,
+      "text": "What if I just took the functionality that I need and just did"
+    },
+    {
+      "start": 1549.702,
+      "duration": 3.39,
+      "text": "that? That is a completely different challenge and"
+    },
+    {
+      "start": 1553.252,
+      "duration": 3.89,
+      "text": "one agents are incredibly capable of doing right now,"
+    },
+    {
+      "start": 1557.232,
+      "duration": 3.78,
+      "text": "today, and I've done it a lot of times over. So one of the"
+    },
+    {
+      "start": 1561.052,
+      "duration": 3.8,
+      "text": "amazing things I've found with the latest agent engaged is I have"
+    },
+    {
+      "start": 1564.912,
+      "duration": 7.96,
+      "text": "become a polyglot programmer, something I was absolutely not before. I was a Ruby"
+    },
+    {
+      "start": 1573.012,
+      "duration": 4.14,
+      "text": "programmer-- ... first and foremost, and then I dabbled a little bit in Bash--"
+    },
+    {
+      "start": 1577.172,
+      "duration": 3.78,
+      "text": "... when I had to. And in the last two months, I've"
+    },
+    {
+      "start": 1580.972,
+      "duration": 3.7,
+      "text": "written C++. I've written three applications that have"
+    },
+    {
+      "start": 1584.852,
+      "duration": 3.4,
+      "text": "shipped in Omarchy Quattro. I wrote a"
+    },
+    {
+      "start": 1589.372,
+      "duration": 3.46,
+      "text": "writing app. I was using this app called Typora, which is a very nice app-"
+    },
+    {
+      "start": 1592.872,
+      "duration": 0.18,
+      "text": "- Great, great app"
+    },
+    {
+      "start": 1593.072,
+      "duration": 3.88,
+      "text": "- ... which in itself is based on another app called iA Writer, which was my real"
+    },
+    {
+      "start": 1597.012,
+      "duration": 5.34,
+      "text": "love on the Mac- ... for a clean, simple Markdown"
+    },
+    {
+      "start": 1602.482,
+      "duration": 2.18,
+      "text": "writing environment. That's where I write all my essays."
+    },
+    {
+      "start": 1605.272,
+      "duration": 2.15,
+      "text": "And then I moved to Linux, and I couldn't get iA Writer,"
+    },
+    {
+      "start": 1608.232,
+      "duration": 3.74,
+      "text": "so I moved over to this other tool called Typora. It was a piece of"
+    },
+    {
+      "start": 1611.992,
+      "duration": 4.72,
+      "text": "shareware, and it had a lot of features I just didn't need. And about"
+    },
+    {
+      "start": 1618.152,
+      "duration": 3.75,
+      "text": "six weeks, seven weeks ago, I thought, \"Do you know what? I only need 5% of Typora,\""
+    },
+    {
+      "start": 1622.272,
+      "duration": 0.849,
+      "text": "which is already a basic app."
+    },
+    {
+      "start": 1624.172,
+      "duration": 3.54,
+      "text": "I literally told the agent to get going, that I wanted it written in"
+    },
+    {
+      "start": 1627.752,
+      "duration": 3.69,
+      "text": "C++ and Qt, because that would fit well with the"
+    },
+    {
+      "start": 1631.472,
+      "duration": 1.899,
+      "text": "aesthetic of what I was building with Quattro."
+    },
+    {
+      "start": 1634.512,
+      "duration": 3.7,
+      "text": "And in, I think, about 20 minutes, it had the first version. I"
+    },
+    {
+      "start": 1638.252,
+      "duration": 3.4,
+      "text": "started using it, and it wasn't quite right. Within two days,"
+    },
+    {
+      "start": 1642.112,
+      "duration": 3.9,
+      "text": "I'd given up Typora, and I wrote and have written"
+    },
+    {
+      "start": 1646.152,
+      "duration": 3.84,
+      "text": "all of my essays since that moment in Omawrite."
+    },
+    {
+      "start": 1650.512,
+      "duration": 3.99,
+      "text": "- Can I ask for your advice and your vision about something? So what I find"
+    },
+    {
+      "start": 1654.532,
+      "duration": 3.28,
+      "text": "with agents, you can actually write something like a replacement for"
+    },
+    {
+      "start": 1657.832,
+      "duration": 4.89,
+      "text": "Typora that is perfectly customized to you, to your needs-"
+    },
+    {
+      "start": 1662.792,
+      "duration": 6.4,
+      "text": "- Correct with just one user in mind. And then there's a version of that that is-"
+    },
+    {
+      "start": 1670.072,
+      "duration": 3.78,
+      "text": "starts with one user in mind but expands to a larger audience. So I've actually"
+    },
+    {
+      "start": 1673.872,
+      "duration": 3.68,
+      "text": "written a large number of software just for me, and I find it"
+    },
+    {
+      "start": 1678.032,
+      "duration": 3.78,
+      "text": "easier to do and better to get my situation done. For"
+    },
+    {
+      "start": 1681.852,
+      "duration": 4.72,
+      "text": "example, I have a video editor I've written, which is very easy to do just for me."
+    },
+    {
+      "start": 1686.652,
+      "duration": 3.98,
+      "text": "- I've never, unlike you, built something that's used by a large number of"
+    },
+    {
+      "start": 1690.672,
+      "duration": 3.98,
+      "text": "people, and I find that a bit scary and intimidating. So,"
+    },
+    {
+      "start": 1694.752,
+      "duration": 3.58,
+      "text": "like, at this, with this agentic age, how do you take a step"
+    },
+    {
+      "start": 1698.872,
+      "duration": 3.68,
+      "text": "to actually build something that solves your problem, which I think is a"
+    },
+    {
+      "start": 1702.612,
+      "duration": 0.9,
+      "text": "beautiful way to build,"
+    },
+    {
+      "start": 1704.392,
+      "duration": 3.85,
+      "text": "but also expand it to actually useful for other people? Like, is there"
+    },
+    {
+      "start": 1708.312,
+      "duration": 3.82,
+      "text": "advice you can give, and do you also see the problem of how"
+    },
+    {
+      "start": 1712.172,
+      "duration": 2.3,
+      "text": "easy it is to just build a tool for yourself?"
+    },
+    {
+      "start": 1715.312,
+      "duration": 3.9,
+      "text": "- Yes, but it is simpler than you think. By the time you're done"
+    },
+    {
+      "start": 1719.492,
+      "duration": 4.42,
+      "text": "building the tool for yourself, you simply tell your agent to put it on GitHub."
+    },
+    {
+      "start": 1723.992,
+      "duration": 3.8,
+      "text": "You don't even have to do anything else. It will figure out how to put that repo on"
+    },
+    {
+      "start": 1727.892,
+      "duration": 3.9,
+      "text": "GitHub. It'll write a nice README. It'll start using GitHub releases so"
+    },
+    {
+      "start": 1731.802,
+      "duration": 3.37,
+      "text": "that you can track things. It'll actually be a better software"
+    },
+    {
+      "start": 1735.212,
+      "duration": 1.79,
+      "text": "maintainer than you could ever be-"
+    },
+    {
+      "start": 1737.002,
+      "duration": 3.83,
+      "text": "... because it is far more patient, it is far more diligent in"
+    },
+    {
+      "start": 1740.852,
+      "duration": 4.69,
+      "text": "doing the drudgery of managing open source software than you are."
+    },
+    {
+      "start": 1745.892,
+      "duration": 2.88,
+      "text": "And you can simply get on with the joy"
+    },
+    {
+      "start": 1749.492,
+      "duration": 3.86,
+      "text": "of using the software that you built and evolving it as you see fit. Now,"
+    },
+    {
+      "start": 1753.472,
+      "duration": 5.22,
+      "text": "this gets into the big argument we've been having in open source for a while. Is"
+    },
+    {
+      "start": 1758.992,
+      "duration": 3.86,
+      "text": "AI contributions good or bad for the maintainer?"
+    },
+    {
+      "start": 1763.492,
+      "duration": 3.26,
+      "text": "There's a lot of maintainers right now who are quite"
+    },
+    {
+      "start": 1766.812,
+      "duration": 3.88,
+      "text": "upset about the fact that they're suddenly"
+    },
+    {
+      "start": 1770.732,
+      "duration": 3.56,
+      "text": "getting a huge influx of pull requests, of"
+    },
+    {
+      "start": 1774.372,
+      "duration": 6.23,
+      "text": "contributions from people who may not be the best programmers or programmers at all-"
+    },
+    {
+      "start": 1781.212,
+      "duration": 5.3,
+      "text": "... towards their software. I look at that argument and go, \"Are you kidding me?\""
+    },
+    {
+      "start": 1787.632,
+      "duration": 8.96,
+      "text": "Here is a vein of free contributions that you can take or don't take,"
+    },
+    {
+      "start": 1797.132,
+      "duration": 3.9,
+      "text": "but you're complaining about the fact that they're there? It sounds straight"
+    },
+    {
+      "start": 1801.112,
+      "duration": 3.62,
+      "text": "out of- My steak is too juicy and my lobster too"
+    },
+    {
+      "start": 1804.912,
+      "duration": 2.42,
+      "text": "buttery. What are you complaining about?"
+    },
+    {
+      "start": 1807.612,
+      "duration": 3.84,
+      "text": "This is the most amazing thing. This is what we proclamated for so"
+    },
+    {
+      "start": 1811.512,
+      "duration": 3.74,
+      "text": "long was going to be the magic of open source, that we could"
+    },
+    {
+      "start": 1815.352,
+      "duration": 3.64,
+      "text": "all contribute to it, but it was, of course, never true. There was only a small"
+    },
+    {
+      "start": 1819.032,
+      "duration": 3.83,
+      "text": "subset of people who contribute to open source, and that was the very highly skilled"
+    },
+    {
+      "start": 1822.952,
+      "duration": 3.97,
+      "text": "wizards. So this is a bit of a reformation moment. We had this"
+    },
+    {
+      "start": 1826.952,
+      "duration": 3.57,
+      "text": "disintermediation between us and the computer, and it was this"
+    },
+    {
+      "start": 1831.032,
+      "duration": 3.499,
+      "text": "class of clerics and priests called programmers,"
+    },
+    {
+      "start": 1835.152,
+      "duration": 3.94,
+      "text": "and suddenly they're being disintermediated here by was"
+    },
+    {
+      "start": 1839.132,
+      "duration": 3.8,
+      "text": "it the 95 theses by Luther in 1500s,"
+    },
+    {
+      "start": 1843.532,
+      "duration": 3.88,
+      "text": "nailing them to the door? And one of those was very clearly about"
+    },
+    {
+      "start": 1847.452,
+      "duration": 4.06,
+      "text": "the intermediation, that you should have direct access to the higher intelligence."
+    },
+    {
+      "start": 1851.632,
+      "duration": 3.86,
+      "text": "- Mm-hmm. But don't you need the wizards to keep a high bar of excellence in the code"
+    },
+    {
+      "start": 1855.512,
+      "duration": 0.2,
+      "text": "base?"
+    },
+    {
+      "start": 1856.212,
+      "duration": 3.84,
+      "text": "- 100% you do, which is also something that's always been true about open"
+    },
+    {
+      "start": 1860.112,
+      "duration": 3.82,
+      "text": "source, which is the second argument that really grinds me. I've been"
+    },
+    {
+      "start": 1863.972,
+      "duration": 3.7,
+      "text": "running open source projects for 25 years. I have literally looked"
+    },
+    {
+      "start": 1867.772,
+      "duration": 3.8,
+      "text": "at the output of thousands, if not tens of thousands of"
+    },
+    {
+      "start": 1871.612,
+      "duration": 3.52,
+      "text": "programmers. I feel like I have the statistical basis to"
+    },
+    {
+      "start": 1875.192,
+      "duration": 6.56,
+      "text": "assert that most programmers, they suck."
+    },
+    {
+      "start": 1881.782,
+      "duration": 2.81,
+      "text": "And I don't mean that in the way it sounds."
+    },
+    {
+      "start": 1884.612,
+      "duration": 3.74,
+      "text": "That was why I paused for a hot second here. I mean, they suck in the sense"
+    },
+    {
+      "start": 1888.432,
+      "duration": 3.66,
+      "text": "that they don't write the code I want to have written. They don't"
+    },
+    {
+      "start": 1892.112,
+      "duration": 3.14,
+      "text": "prepare their bug reports with all the relevant"
+    },
+    {
+      "start": 1895.292,
+      "duration": 3.94,
+      "text": "information. They don't detail their pull requests with the"
+    },
+    {
+      "start": 1899.372,
+      "duration": 3.38,
+      "text": "why. They don't bother to fill in"
+    },
+    {
+      "start": 1902.832,
+      "duration": 3.47,
+      "text": "needed code comments. They don't double-check their work. They don't"
+    },
+    {
+      "start": 1906.312,
+      "duration": 3.88,
+      "text": "write unit tests. They don't do all of these things it takes to create"
+    },
+    {
+      "start": 1910.212,
+      "duration": 3.86,
+      "text": "good software. But do you know who'll do all that stuff? Agents,"
+    },
+    {
+      "start": 1914.652,
+      "duration": 3.74,
+      "text": "if you tell them to. They're very diligent at following your instructions,"
+    },
+    {
+      "start": 1918.772,
+      "duration": 3.98,
+      "text": "most of the time, sometimes to a fault. But it actually means that if you take"
+    },
+    {
+      "start": 1922.812,
+      "duration": 3.94,
+      "text": "the median programmer and their pull requests towards"
+    },
+    {
+      "start": 1926.792,
+      "duration": 1.82,
+      "text": "an average open source project,"
+    },
+    {
+      "start": 1929.442,
+      "duration": 2.71,
+      "text": "they're already getting outclassed by agents. I would"
+    },
+    {
+      "start": 1932.432,
+      "duration": 3.94,
+      "text": "rather get an agent-written pull request to one of my"
+    },
+    {
+      "start": 1936.392,
+      "duration": 3.76,
+      "text": "projects than I'd get one written by a human, and it's not just"
+    },
+    {
+      "start": 1940.192,
+      "duration": 3.98,
+      "text": "because the quality's better. It's also because"
+    },
+    {
+      "start": 1944.412,
+      "duration": 3.86,
+      "text": "I feel a lot less bad if I just reject it. You didn't even"
+    },
+    {
+      "start": 1948.292,
+      "duration": 3.4,
+      "text": "write it, so I can simply look at what your agent wrote on your behalf and"
+    },
+    {
+      "start": 1951.732,
+      "duration": 2.74,
+      "text": "go, \"Eh, don't want it.\""
+    },
+    {
+      "start": 1956.222,
+      "duration": 3.97,
+      "text": "That's always been true in open source, and in fact, I think this is one of the problems with"
+    },
+    {
+      "start": 1960.252,
+      "duration": 8.14,
+      "text": "open source maintainers. They have way too much ball of neuroticism and anxiety that"
+    },
+    {
+      "start": 1968.452,
+      "duration": 7.76,
+      "text": "requires them to look upon any contribution as an obligation on their part to do"
+    },
+    {
+      "start": 1976.332,
+      "duration": 3.78,
+      "text": "everything to get that to land in the code base. That's not"
+    },
+    {
+      "start": 1980.172,
+      "duration": 4.4,
+      "text": "true at all. You can simply say, \"No,\" or even better, you can say, \"No, thank you.\""
+    },
+    {
+      "start": 1985.992,
+      "duration": 3.28,
+      "text": "And if you get into the mode of realizing that your project"
+    },
+    {
+      "start": 1990.532,
+      "duration": 3.38,
+      "text": "is allowed to exist and evolve according to your"
+    },
+    {
+      "start": 1993.932,
+      "duration": 3.77,
+      "text": "vision, according to your roadmap, it becomes so much"
+    },
+    {
+      "start": 1997.772,
+      "duration": 3.84,
+      "text": "easier in the agentic age to decline the contributions you don't"
+    },
+    {
+      "start": 2001.752,
+      "duration": 3.86,
+      "text": "want because you don't even inconvenience or hurt"
+    },
+    {
+      "start": 2005.672,
+      "duration": 3.78,
+      "text": "the feelings of a human. It's just a clanker, and the clanker won't"
+    },
+    {
+      "start": 2009.512,
+      "duration": 3.52,
+      "text": "mind. In fact, the producers of clankers, the"
+    },
+    {
+      "start": 2013.392,
+      "duration": 5.34,
+      "text": "labs, love when you spend tokens in vain. They get paid just the same."
+    },
+    {
+      "start": 2019.032,
+      "duration": 3.4,
+      "text": "So, in my opinion, this is the absolute best"
+    },
+    {
+      "start": 2022.442,
+      "duration": 4.2,
+      "text": "time to ever have been an open source software maintainer."
+    },
+    {
+      "start": 2026.692,
+      "duration": 6.78,
+      "text": "Not only do we get this wealth of glorious pull requests made by"
+    },
+    {
+      "start": 2033.572,
+      "duration": 3.98,
+      "text": "agents with all the boxes ticked, we also get to tap into a"
+    },
+    {
+      "start": 2037.612,
+      "duration": 4.92,
+      "text": "creativity of people who did not have access to contribute to a project before."
+    },
+    {
+      "start": 2042.812,
+      "duration": 3.509,
+      "text": "I've been running the Omarchy project now for a little over a year,"
+    },
+    {
+      "start": 2047.132,
+      "duration": 3.92,
+      "text": "and in the last three months working on Quattro, I have merged over 1,000 pull"
+    },
+    {
+      "start": 2051.092,
+      "duration": 5.14,
+      "text": "requests. Quite a lot of those pull requests were written by people who were"
+    },
+    {
+      "start": 2056.272,
+      "duration": 4.22,
+      "text": "not classical programmers, or were programmers in other domains, not"
+    },
+    {
+      "start": 2061.692,
+      "duration": 3.32,
+      "text": "Linux operating system or distribution development."
+    },
+    {
+      "start": 2065.752,
+      "duration": 3.96,
+      "text": "They were able to contribute their good ideas because of agents, and I got"
+    },
+    {
+      "start": 2069.772,
+      "duration": 6.32,
+      "text": "to cherry-pick the very best of that- ... because it was there. Otherwise, those"
+    },
+    {
+      "start": 2076.152,
+      "duration": 3.86,
+      "text": "ideas would just have lived inside their heads. Again,"
+    },
+    {
+      "start": 2080.052,
+      "duration": 3.74,
+      "text": "Is- that is not the purpose of open source, that we tap into the collective"
+    },
+    {
+      "start": 2083.852,
+      "duration": 3.81,
+      "text": "intelligence and creativity of the whole goddamn planet,"
+    },
+    {
+      "start": 2088.012,
+      "duration": 3.64,
+      "text": "and we channel that towards a commons"
+    },
+    {
+      "start": 2091.892,
+      "duration": 3.95,
+      "text": "where we all benefit from the combined efforts of everyone."
+    },
+    {
+      "start": 2096.432,
+      "duration": 4.62,
+      "text": "Now, there's currently, I think, about 400 unmerged pull requests on Omarchy,"
+    },
+    {
+      "start": 2101.572,
+      "duration": 3.55,
+      "text": "about double what it was a week ago. So the acceleration is"
+    },
+    {
+      "start": 2105.172,
+      "duration": 2.73,
+      "text": "real, but so are the tools."
+    },
+    {
+      "start": 2108.192,
+      "duration": 3.76,
+      "text": "I'm not reviewing every pull request anymore. I haven't been reviewing them for"
+    },
+    {
+      "start": 2112.072,
+      "duration": 4.78,
+      "text": "quite some time now. I have the agents- ... review them for me-"
+    },
+    {
+      "start": 2117.012,
+      "duration": 3.47,
+      "text": "... and then they will give me a summary about whether something is ready for the"
+    },
+    {
+      "start": 2120.492,
+      "duration": 4.24,
+      "text": "decision, the human decision. Should we merge or should we not merge?"
+    },
+    {
+      "start": 2125.212,
+      "duration": 4.62,
+      "text": "I don't need to look at all the pull requests that are either wrong, duplicated,"
+    },
+    {
+      "start": 2130.692,
+      "duration": 5.28,
+      "text": "bad. An agent can sort that chaff away from me. I just get to look at the pearls-"
+    },
+    {
+      "start": 2136.252,
+      "duration": 3.22,
+      "text": "... the good ideas that are ready to go, the bug"
+    },
+    {
+      "start": 2139.612,
+      "duration": 3.98,
+      "text": "fixes that the agent has validated in a VM on my behalf."
+    },
+    {
+      "start": 2144.112,
+      "duration": 3.58,
+      "text": "All the drudgery of replicating and managing open source"
+    },
+    {
+      "start": 2147.752,
+      "duration": 5.72,
+      "text": "projects is evaporating at lightning speed, and we are left with the,"
+    },
+    {
+      "start": 2155.152,
+      "duration": 4.55,
+      "text": "with the golden juicy parts, the bone marrow of software development-"
+    },
+    {
+      "start": 2159.732,
+      "duration": 3.42,
+      "text": "... deciding what should this thing do and where should it go."
+    },
+    {
+      "start": 2163.352,
+      "duration": 3.26,
+      "text": "- Do you think the good ideas, ultimately the kernel of the good ideas"
+    },
+    {
+      "start": 2166.632,
+      "duration": 3.38,
+      "text": "originated in the human mind, so the individual contributors"
+    },
+    {
+      "start": 2171.2,
+      "duration": 6.89,
+      "text": "Like, can it be done by agents, or is the PR ultimately requires a human idea?"
+    },
+    {
+      "start": 2178.9,
+      "duration": 1.52,
+      "text": "Like how to improve Omarchy,"
+    },
+    {
+      "start": 2181.34,
+      "duration": 2.98,
+      "text": "all those incoming... Or can it all just be a pool of agents?"
+    },
+    {
+      "start": 2184.7,
+      "duration": 3.84,
+      "text": "- That was the mode and the way I was thinking about agents"
+    },
+    {
+      "start": 2188.58,
+      "duration": 7.11,
+      "text": "in the first agentic age from November 24 to February 28."
+    },
+    {
+      "start": 2195.96,
+      "duration": 3.74,
+      "text": "I thought all the ideas would originate with the humans. They would tell"
+    },
+    {
+      "start": 2199.74,
+      "duration": 3.07,
+      "text": "their agents what to build, and off they went."
+    },
+    {
+      "start": 2203.52,
+      "duration": 3.51,
+      "text": "I don't think that's true anymore at all. I have seen things you people wouldn't"
+    },
+    {
+      "start": 2207.08,
+      "duration": 7.77,
+      "text": "believe, ideas coming out of models so great that it makes me humble-"
+    },
+    {
+      "start": 2214.88,
+      "duration": 4.069,
+      "text": "... as a person who otherwise prides himself on having good ideas."
+    },
+    {
+      "start": 2219.67,
+      "duration": 3.68,
+      "text": "The agents are incredibly capable of creative thought,"
+    },
+    {
+      "start": 2224.04,
+      "duration": 7.4,
+      "text": "and folks who are still stuck in the analysis that agents are parrots-"
+    },
+    {
+      "start": 2231.449,
+      "duration": 3.79,
+      "text": "... just regurgitating the ideas that are"
+    },
+    {
+      "start": 2235.3,
+      "duration": 3.92,
+      "text": "already there are delusional about the progress that's been made in"
+    },
+    {
+      "start": 2239.26,
+      "duration": 1.38,
+      "text": "the last six to nine months."
+    },
+    {
+      "start": 2241.34,
+      "duration": 3.86,
+      "text": "- So some people listening to you right now will say DHH is suffering from the old case"
+    },
+    {
+      "start": 2245.34,
+      "duration": 7.98,
+      "text": "of AI psychosis. Can you steel man the case that you are in fact experiencing in"
+    },
+    {
+      "start": 2253.34,
+      "duration": 3.58,
+      "text": "a state of delusion, like One Flew Over the Cuckoo's Nest, and can you argue against it?"
+    },
+    {
+      "start": 2257.5,
+      "duration": 3.5,
+      "text": "- I'm in a state of delirium. That's what the state I'm in."
+    },
+    {
+      "start": 2261.68,
+      "duration": 4.26,
+      "text": "Because I have been working with computers for 40 years,"
+    },
+    {
+      "start": 2267.56,
+      "duration": 6.14,
+      "text": "and I've never seen the things that I've seen in just the last two months."
+    },
+    {
+      "start": 2274.1,
+      "duration": 7.32,
+      "text": "A whole career, a whole life dedicating to the love of computers as my main"
+    },
+    {
+      "start": 2282.3,
+      "duration": 2.56,
+      "text": "focus for the working hours and then some,"
+    },
+    {
+      "start": 2285.76,
+      "duration": 4.88,
+      "text": "suddenly completely upended, suddenly completely rewritten. Of course I'm delirious."
+    },
+    {
+      "start": 2291.78,
+      "duration": 6.76,
+      "text": "Who looking at this reality is not? If you are not delirious or at the very least"
+    },
+    {
+      "start": 2299.1,
+      "duration": 3.92,
+      "text": "very excited... Actually, I guess that's not even true. If you're not recognizing"
+    },
+    {
+      "start": 2303.08,
+      "duration": 5.1,
+      "text": "the gravity of the moment, that's the delusion. That's the"
+    },
+    {
+      "start": 2308.2,
+      "duration": 3.96,
+      "text": "psychosis. The psychosis is believing that the world is barely different. We"
+    },
+    {
+      "start": 2312.22,
+      "duration": 7.64,
+      "text": "just have some electronic parrots reciting things to us. Now, in my opinion, the"
+    },
+    {
+      "start": 2319.88,
+      "duration": 3.96,
+      "text": "reason this argument is actually brought up is because people are not able to see"
+    },
+    {
+      "start": 2323.9,
+      "duration": 3.66,
+      "text": "the fruits of the progress. That goes to your point earlier."
+    },
+    {
+      "start": 2327.94,
+      "duration": 6.54,
+      "text": "Where is the amazing software? Why isn't American GDP running at 12% year over year?"
+    },
+    {
+      "start": 2335.42,
+      "duration": 4.28,
+      "text": "First of all, give it a minute. It hasn't even been a year, goddammit."
+    },
+    {
+      "start": 2341.02,
+      "duration": 6.94,
+      "text": "But second of all, I feel on my own account, I have actually brought the pudding."
+    },
+    {
+      "start": 2348.22,
+      "duration": 3.62,
+      "text": "Omarchy Quattro launched on Friday. It's been"
+    },
+    {
+      "start": 2351.94,
+      "duration": 5.06,
+      "text": "downloaded by tens of thousands of people. And they like it. They like it a lot."
+    },
+    {
+      "start": 2357.08,
+      "duration": 3.95,
+      "text": "- We should mention that going to Perplexity here, Omarchy is a highly"
+    },
+    {
+      "start": 2361.08,
+      "duration": 3.9,
+      "text": "opinionated Arch Linux-based desktop distribution centered on the Hyprland"
+    },
+    {
+      "start": 2365.1,
+      "duration": 3.4,
+      "text": "Wayland tiling compositor. It was created by David"
+    },
+    {
+      "start": 2368.58,
+      "duration": 3.58,
+      "text": "Heinemeier Hansson, DHH, as a polished"
+    },
+    {
+      "start": 2372.18,
+      "duration": 3.56,
+      "text": "developer workstation set up with a cohesive visual"
+    },
+    {
+      "start": 2375.8,
+      "duration": 3.48,
+      "text": "style and many everyday tools already configured."
+    },
+    {
+      "start": 2379.7,
+      "duration": 5.77,
+      "text": "- Let me put it. Omarchy is a beautiful, modern, and opinionated Linux system."
+    },
+    {
+      "start": 2385.56,
+      "duration": 3.22,
+      "text": "It's an alternative operating system to macOS and Windows,"
+    },
+    {
+      "start": 2389.52,
+      "duration": 0.96,
+      "text": "and it's freaking amazing."
+    },
+    {
+      "start": 2390.76,
+      "duration": 3.86,
+      "text": "- And the Quattro thing is you're pushing towards the age of agents."
+    },
+    {
+      "start": 2394.84,
+      "duration": 2.9,
+      "text": "- That's right. That's the latest version that we just dropped out, which is also funny."
+    },
+    {
+      "start": 2398.3,
+      "duration": 3.74,
+      "text": "The Omarchy project is only a year old and a"
+    },
+    {
+      "start": 2402.1,
+      "duration": 5.94,
+      "text": "little bit. I started it last summer in between sessions at the 24 Hours of Le Mans-"
+    },
+    {
+      "start": 2408.38,
+      "duration": 3.72,
+      "text": "... where I had watched one too many YouTube videos on"
+    },
+    {
+      "start": 2412.22,
+      "duration": 3.84,
+      "text": "Linux Rising and got bitten by that bug. Started working"
+    },
+    {
+      "start": 2416.12,
+      "duration": 3.69,
+      "text": "on this second iteration of my"
+    },
+    {
+      "start": 2419.86,
+      "duration": 3.81,
+      "text": "attempt at creating a better Linux operating system. The first iteration we talked about"
+    },
+    {
+      "start": 2423.74,
+      "duration": 3.5,
+      "text": "last time was called Omakub, was built on top of an existing system called"
+    },
+    {
+      "start": 2427.3,
+      "duration": 6.24,
+      "text": "Ubuntu, and it was fine. But the ambition I was able to pour into the new"
+    },
+    {
+      "start": 2433.56,
+      "duration": 3.82,
+      "text": "version, Omarchy, because I started seven layers deeper down the"
+    },
+    {
+      "start": 2437.44,
+      "duration": 3.86,
+      "text": "stack, was completely different, but it was still done in a pre-agentic"
+    },
+    {
+      "start": 2441.38,
+      "duration": 5.02,
+      "text": "world. I wrote all those batch scripts by hand in the beginning,"
+    },
+    {
+      "start": 2447.22,
+      "duration": 4.92,
+      "text": "and then I got to see the midway point where things changed over."
+    },
+    {
+      "start": 2452.24,
+      "duration": 3.76,
+      "text": "I did a couple of versions of Omarchy that had partial agent"
+    },
+    {
+      "start": 2456.08,
+      "duration": 2.04,
+      "text": "acceleration, and then three months ago,"
+    },
+    {
+      "start": 2459.02,
+      "duration": 5.06,
+      "text": "it was full throttle, 100%, everything is written by agents but steered by me."
+    },
+    {
+      "start": 2464.68,
+      "duration": 1.85,
+      "text": "And that just ended up being"
+    },
+    {
+      "start": 2467.62,
+      "duration": 3.75,
+      "text": "a very different experience and a very different operating system"
+    },
+    {
+      "start": 2471.46,
+      "duration": 5.62,
+      "text": "because I was suddenly granted a limitless ceiling on my ambition."
+    },
+    {
+      "start": 2477.7,
+      "duration": 7.51,
+      "text": "I could look at any feature in Windows, on Mac, on other Linux systems and say, \"I"
+    },
+    {
+      "start": 2485.24,
+      "duration": 6.36,
+      "text": "want that,\" and the agents would deliver. So everything I wanted was suddenly"
+    },
+    {
+      "start": 2491.62,
+      "duration": 4.4,
+      "text": "within reach, which meant that I got a little delirious."
+    },
+    {
+      "start": 2496.31,
+      "duration": 3.91,
+      "text": "Who would not get delirious if suddenly a genie pops out of the bottle"
+    },
+    {
+      "start": 2500.5,
+      "duration": 3.5,
+      "text": "and says, \"You can have whatever you want. Every feature"
+    },
+    {
+      "start": 2504.66,
+      "duration": 2.309,
+      "text": "you've ever dreamed of in an operating system-"
+    },
+    {
+      "start": 2507.07,
+      "duration": 3.85,
+      "text": "... I can deliver them to you, most of them in five minutes, a few in"
+    },
+    {
+      "start": 2511.2,
+      "duration": 3.08,
+      "text": "20, and if we really go hog wild, it's gonna take me two hours.\""
+    },
+    {
+      "start": 2514.32,
+      "duration": 3.51,
+      "text": "- Mm-hmm. Have you seen Requiem for a Dream, the movie? So the,"
+    },
+    {
+      "start": 2518.36,
+      "duration": 2.1,
+      "text": "There's a drug-like effect here."
+    },
+    {
+      "start": 2520.58,
+      "duration": 5.36,
+      "text": "I find it personally-- We'll talk about many levels of this, but it is overwhelming"
+    },
+    {
+      "start": 2527.34,
+      "duration": 3.79,
+      "text": "how much power is placed in our hands so suddenly,"
+    },
+    {
+      "start": 2531.66,
+      "duration": 3.92,
+      "text": "and it's very hard to know, it's like with \"The Hobbit\" or something, what to do"
+    },
+    {
+      "start": 2535.62,
+      "duration": 3.79,
+      "text": "with it, and I find myself truly overwhelmed with the multitasking,"
+    },
+    {
+      "start": 2540.1,
+      "duration": 8.012,
+      "text": "On the verge of almost burnt out. Super excited about so many things, but ultimately"
+    },
+    {
+      "start": 2548.172,
+      "duration": 3.06,
+      "text": "looking back, you want to focus on one thing and really ship"
+    },
+    {
+      "start": 2551.632,
+      "duration": 3.98,
+      "text": "- I don't have that sense. I don't have the sense of overwhelm. I don't have the"
+    },
+    {
+      "start": 2555.652,
+      "duration": 6.8,
+      "text": "sense of dread. I don't have the sense of distortion because I have a mission."
+    },
+    {
+      "start": 2562.512,
+      "duration": 6.04,
+      "text": "I'm going somewhere, and therefore, I can channel all this new power towards-"
+    },
+    {
+      "start": 2568.592,
+      "duration": 0.27,
+      "text": "- Yeah, it's wonderful"
+    },
+    {
+      "start": 2568.862,
+      "duration": 3.07,
+      "text": "- ... a singular goal and outcome, creating the perfect"
+    },
+    {
+      "start": 2571.992,
+      "duration": 7.7,
+      "text": "computer. And therefore, all my investigations with AI are focused towards"
+    },
+    {
+      "start": 2579.772,
+      "duration": 2.64,
+      "text": "that end. Now, I also have a day job."
+    },
+    {
+      "start": 2582.462,
+      "duration": 3.65,
+      "text": "And we also use agents there, and that's also targeted towards sort of"
+    },
+    {
+      "start": 2586.192,
+      "duration": 6.44,
+      "text": "specific outcomes. But with the Omarchy experience, I got to tap in"
+    },
+    {
+      "start": 2594.292,
+      "duration": 3.92,
+      "text": "straight in the back of my head and increase"
+    },
+    {
+      "start": 2598.272,
+      "duration": 3.55,
+      "text": "the bandwidth between ideas arriving in my"
+    },
+    {
+      "start": 2601.972,
+      "duration": 6.6,
+      "text": "brain and software emerging on the screen. It was like going from dial-up-"
+    },
+    {
+      "start": 2608.852,
+      "duration": 6.72,
+      "text": "... to fiber. I think on your podcast, Elon talked about the actual human bandwidth-"
+    },
+    {
+      "start": 2615.692,
+      "duration": 3.94,
+      "text": "... that Neuralink and other projects are trying to accelerate."
+    },
+    {
+      "start": 2619.812,
+      "duration": 5.34,
+      "text": "Like, the bandwidth we're communicating over right now is quite low because"
+    },
+    {
+      "start": 2626.172,
+      "duration": 3.78,
+      "text": "we're limited by our cognition. We're limited by the rate of"
+    },
+    {
+      "start": 2630.052,
+      "duration": 3.79,
+      "text": "speech. You're not limited by those things when you're working with a"
+    },
+    {
+      "start": 2633.912,
+      "duration": 4.52,
+      "text": "swarm of agents. Now, let me caveat this by saying,"
+    },
+    {
+      "start": 2640.012,
+      "duration": 3.18,
+      "text": "if I'd heard myself talk like this-"
+    },
+    {
+      "start": 2643.312,
+      "duration": 3.78,
+      "text": "... nine months ago, I would probably have used the label AI,"
+    },
+    {
+      "start": 2647.592,
+      "duration": 3.84,
+      "text": "AI psychosis. I think it would be fitting because"
+    },
+    {
+      "start": 2651.492,
+      "duration": 2.67,
+      "text": "nine months ago when people were talking like this, they weren't shipping,"
+    },
+    {
+      "start": 2655.222,
+      "duration": 3.83,
+      "text": "and I think that's the ultimate difference, that there were people who saw this"
+    },
+    {
+      "start": 2659.112,
+      "duration": 3.6,
+      "text": "early. I was not actually that early. As we've talked about, I"
+    },
+    {
+      "start": 2662.752,
+      "duration": 3.96,
+      "text": "was rather skeptical, and I was using AI in certain ways, but I was not"
+    },
+    {
+      "start": 2666.732,
+      "duration": 3.4,
+      "text": "the first person who downloaded Claude Code. I think Boris released that in end of"
+    },
+    {
+      "start": 2670.212,
+      "duration": 3.32,
+      "text": "February. I don't think I installed Claude Code until"
+    },
+    {
+      "start": 2674.132,
+      "duration": 4.4,
+      "text": "September. So there was about six months there where pioneers"
+    },
+    {
+      "start": 2679.352,
+      "duration": 3.64,
+      "text": "saw these glimmers of what the future was gonna look like. It wasn't there"
+    },
+    {
+      "start": 2683.092,
+      "duration": 3.86,
+      "text": "yet because the intelligence wasn't there. The harnesses weren't there, but they could"
+    },
+    {
+      "start": 2686.992,
+      "duration": 3.18,
+      "text": "see the glimmers. I couldn't. Tobi, Tobi Lütke, the CEO of"
+    },
+    {
+      "start": 2690.212,
+      "duration": 3.9,
+      "text": "Shopify and now my partner in crime on this"
+    },
+    {
+      "start": 2694.372,
+      "duration": 3.72,
+      "text": "Omarchy project in part, he's gotten pilled with Omarchy as well."
+    }
+  ],
+  "passages": [
+    {
+      "id": "NYFGCESmikA-0000",
+      "start": 0.1,
+      "end": 103.82000000000001,
+      "text": "[0:00] - There are decades where nothing happens and weeks where decades happen.\n[0:05] And we have seen decades of progress\n[0:09] happen in the last nine months. If you're not recognizing the\n[0:14] gravity of the moment, that's the delusion. That's the\n[0:18] psychosis. Who would not get delirious if suddenly a genie\n[0:22] pops out of the bottle and says, \"You can have whatever you want.\n[0:26] Every feature you've ever dreamed of in an operating\n[0:30] system, I can deliver them to you,\n[0:32] most of them in five minutes, a few in 20, and if we really go hog wild, it's\n[0:36] gonna take me two hours.\" I want the fastest car breaking the speed\n[0:40] limits. I want the diver watch that can go down the Mariana\n[0:44] Trench. I want the operating system that can install in less than\n[0:48] 60 seconds. One of the things I always loved about race cars was when I\n[0:51] would stumble out of the car absolutely smashed and barely able to\n[0:55] hold my head up, and I'd lay down on the garage floor and just think,\n[0:59] \"Holy fuck, I'm alive.\" The Overton window does not open\n[1:03] itself. It opens one nudge at a time by people risking a little.\n[1:09] A little reputation, a little pushback, a little criticism, or maybe sometimes a\n[1:13] lot of reputation or a lot of criticism or a lot of pushback. Creating\n[1:17] life with another human that you love\n[1:21] is literally the peak experience of being on the planet.\n[1:28] - The following is a conversation with David Heinemeier Hansson, also\n[1:32] known as DHH, creator of Ruby on Rails, CTO of 37signals, creator of the new Omarchy\n[1:40] Linux operating system, best-selling author, race car driver,",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "0:00",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=0s"
+    },
+    {
+      "id": "NYFGCESmikA-0001",
+      "start": 92.08,
+      "end": 203.98000000000002,
+      "text": "[1:32] known as DHH, creator of Ruby on Rails, CTO of 37signals, creator of the new Omarchy\n[1:40] Linux operating system, best-selling author, race car driver,\n[1:44] and one of the most outspoken and prolific programmers\n[1:48] in the world. For the past 20-plus years, for him,\n[1:51] programming meant meticulously handcrafting beautiful Ruby\n[1:55] code. But recently, since late 2025, DHH has embraced the AI revolution and has\n[2:03] openly transformed himself into, once again, one of the\n[2:07] most outspoken and prolific agentic engineers, even\n[2:11] though he hates that term. So let's say\n[2:15] practitioners of whatever programming is becoming where AI is\n[2:19] doing most of the actual programming and the human steers the ship\n[2:23] with high-level design, vision, and taste. Yes, it's\n[2:27] true. DHH is at times controversial, but he's\n[2:31] always fearless, brilliant, and fun to talk to. This was,\n[2:35] once again, an intense, eye-opening, and wild\n[2:38] rollercoaster ride of a conversation. This is a Lex Fridman\n[2:42] podcast. To support it, please check out our sponsors in the description\n[2:46] where you can also find links to contact me, ask questions, give\n[2:50] feedback, and so on. And now, dear friends, here's DHH.\n[2:56] 13 months ago, we sat down right here to talk about programming,\n[3:00] and then everything changed. At that time, you were\n[3:04] a bit skeptical about the role of AI in the process of\n[3:08] programming, and then we went through this rapid evolution\n[3:12] of agentic engineering. So, simple question to start: How has your view on AI's\n[3:20] role in programming changed? Are you excited? Are you terrified? Are you",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "1:32",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=92s"
+    },
+    {
+      "id": "NYFGCESmikA-0002",
+      "start": 192.38,
+      "end": 302.039,
+      "text": "[3:12] of agentic engineering. So, simple question to start: How has your view on AI's\n[3:20] role in programming changed? Are you excited? Are you terrified? Are you\n[3:24] on an emotional rollercoaster ride?\n[3:26] - I am incredibly excited.\n[3:29] - You've been talking about fun a lot.\n[3:31] - There is none of the existential threat. That doesn't exist for me as an emotional\n[3:38] component. It is only there as an intellectual component, and the\n[3:41] emotional component for me is 100% pure, unadulterated joy-\n[3:47] ... and optimism and amazement that we've made\n[3:51] computers do this. And I find it so interesting that we talked\n[3:55] just 13 months ago because\n[3:59] it's like we talked in different universes, different eras.\n[4:03] I love this quote. I think it's Lenin. There are\n[4:06] decades where nothing happens and weeks where decades happen.\n[4:11] And we have seen decades of progress happen in the last nine months.\n[4:18] I mean, imagine you're there when the Wright brothers take flight.\n[4:21] Yesterday, the New York Times would write, \"It's gonna be 10,000 years before we fly,\"\n[4:26] and then the day after, we're up in the skies, and just a\n[4:30] few years after that, there were cross-Atlantic planes. The\n[4:33] whole world has completely changed. What a blessing to be\n[4:37] there in that moment. If you zoom out and look at all of human history, how many\n[4:41] humans got to live within the same epoch that they were born in? They never saw that\n[4:49] complete change of the world and of society. And to have\n[4:55] been blessed with two of those\n[4:58] feels just such a privilege. I got to see the internet-",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "3:12",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=192s"
+    },
+    {
+      "id": "NYFGCESmikA-0003",
+      "start": 295.16,
+      "end": 397.837,
+      "text": "[4:55] been blessed with two of those\n[4:58] feels just such a privilege. I got to see the internet-\n[5:02] ... from pre-internet to post-internet, and then now pre-AI, post-AI.\n[5:09] What an amazing run. How fortunate.\n[5:12] - Yeah, but the thing is, this feels like a thing that\n[5:16] happened faster than anything else in human history.\n[5:18] - Correct.\n[5:18] - So I would say somewhere around December, maybe late November-\n[5:22] - November 24.\n[5:24] - This is...\n[5:26] - That's the exact moment.\n[5:26] - You know, when they talk about when one nation invades another in a world\n[5:30] war or something like this, it-- this is how we talk about AI changing everything.\n[5:34] Yeah, the... And it really just sh- shifted for many\n[5:38] great developers. It shifted to where AI is doing some,\n[5:43] basic autocomplete, maybe writing 5, 10, 15, 20% of code to writing 80% of code.\n[5:49] - Or 100.\n[5:50] - Or 100, yeah, especially if it's not a public-facing product.\n[5:54] - To me, that's why even when I look\n[5:58] back upon our conversation a year ago, I don't actually have different\n[6:02] opinions. I have the same opinions. A year ago, I did\n[6:06] not like the mode of AI we were offered. It was the autocomplete mode,\n[6:10] or it was the AI chatbot mode. Now, the chatbot\n[6:14] I actually liked, as we talked about. Great tutor right from the get-go, great\n[6:18] way of looking things up on the internet,\n[6:21] not what was gonna replace me chiseling code. But- ... then we get the agents.\n[6:28] And the agents start out being curiosities\n[6:32] for about five minutes, and then they get amazing, and then they get,",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "4:55",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=295s"
+    },
+    {
+      "id": "NYFGCESmikA-0004",
+      "start": 388.708,
+      "end": 503.548,
+      "text": "[6:28] And the agents start out being curiosities\n[6:32] for about five minutes, and then they get amazing, and then they get,\n[6:38] \"Oh my God, is this AGI?\" And all of that happened since last year,\n[6:45] even just within the last nine months. We have\n[6:48] basically these few phases here. We have AI in the\n[6:53] pre-agentic era. I was excited about that, but it\n[6:56] was not fundamentally rewriting the rules of the game for me. It was\n[7:01] not completely changing how I worked. I was still chiseling\n[7:04] code, I just had a little helper, a little sidekick-\n[7:08] ... who could bounce ideas off, and I could look up this\n[7:13] information online and so forth in a more efficient way. It was just a more efficient way to do what I was\n[7:17] already doing, and it didn't change the emotional connection I had to the\n[7:21] computer. Then we get to November 24th, 2025. Opus 4.5, to\n[7:29] me, was the dividing line, where suddenly... I didn't even\n[7:33] try it on the 24th. I think I tried it on the 26th. I give it a couple of tasks,\n[7:40] and I realize that the quality of the output is uncannily close to\n[7:47] what I would've written. And I remember just leaning back and thinking,\n[7:54] \"What just happened?\" \"How did we go from this autocomplete mess that\n[7:59] I was talking to you about in the summer to this just a\n[8:03] few short months later? How did we get both the increase in\n[8:06] intelligence and then also the increase in\n[8:10] usability?\" This agent harness question where\n[8:15] I don't know if Opus 4.5 was that much smarter than Opus 4, which\n[8:19] is what we had in the summer, but its ability to",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "6:28",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=388s"
+    },
+    {
+      "id": "NYFGCESmikA-0005",
+      "start": 495.668,
+      "end": 599.788,
+      "text": "[8:15] I don't know if Opus 4.5 was that much smarter than Opus 4, which\n[8:19] is what we had in the summer, but its ability to\n[8:23] instrument your computer, to use tools, to check its own work,\n[8:27] to apply its intelligence in such a way that you could\n[8:31] get real meaningful work out of it, was completely different. And I think this is\n[8:38] then the big change that happens for almost anyone who paid attention and started playing with\n[8:41] it over the Christmas break. This is what I heard-\n[8:44] ... from Shopify and other places with lots of employees who\n[8:49] suddenly had a breather, suddenly had a couple of weeks to lean back and just look at what\n[8:53] was going on, gave it a try, and had the same\n[8:58] mind-blowing experience that these agents were of\n[9:01] a different genre than what we had before. And then what we get to is,\n[9:08] I'm already excited at this point. Like, by December, I'm\n[9:12] already revisiting sort of all my priors-\n[9:15] ... and going like, \"Wow, if it can do this, can it also do that?\"\n[9:18] \"Oh, yeah, it can.\" And again, Opus 4.5 now looks like a retarded model.\n[9:26] And this is the magic of this progress, is you think you've reached something...\n[9:32] I remember thinking at the moment,\n[9:35] \"If this is the last model we get, I'll be set. I'll be happy.\"\n[9:39] I could live with Opus 4.5 for the next 20 years-\n[9:42] ... and you would hear no complaints from me because it was just so incredibly\n[9:48] amazing to see an agent do all this work in the way that I wanted it\n[9:52] done. Because it was not just about it being able to solve a\n[9:55] task, it was also that I could look at its",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "8:15",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=495s"
+    },
+    {
+      "id": "NYFGCESmikA-0006",
+      "start": 592.428,
+      "end": 707.298,
+      "text": "[9:52] done. Because it was not just about it being able to solve a\n[9:55] task, it was also that I could look at its\n[9:59] path there and go, \"Yep. Yep. Maybe not there,\n[10:03] but almost,\" and it would give you two notes. You'll get to where I wanted\n[10:07] to go in the way I wanted to go there. You could produce code I\n[10:11] wanted to merge. You could produce code that actually looked\n[10:15] beautiful if it was written in Ruby. Rust, different question. But\n[10:21] this ability for the agents to truly become an extension of how I wanted to\n[10:28] work was very novel. But then we wait just until early spring, and\n[10:35] suddenly we get sub-agents. We get harnesses that\n[10:39] can subdivide the task, and something that would take\n[10:43] Opus quite a while suddenly took a fifth of\n[10:47] the time, a tenth of the time, because it could get chopped up and\n[10:50] suddenly you got eight sub-agents working for you.\n[10:54] But both of those two first phases of the agentic age,\n[10:59] to me, still felt like I had to drive. I could tell it what\n[11:03] I wanted, where to look for it, and steer it a little bit\n[11:07] when it went off, and then we'll get there, and I would go much faster.\n[11:11] But I had to be in the driver's seat. I had to tell it what I wanted, and I\n[11:15] had to be the reviewer, the auditor of what was coming out. And then\n[11:21] finally now, this summer, with Opus 5, Fable, and Sol, GPT Sol, and\n[11:29] to a lesser extent, some of the open weight models, we've\n[11:33] arrived at a new era where I'm not telling it where we're\n[11:37] going. I'm telling it the problem I have. I'm telling it the fuzzy,\n[11:41] vague idea I have. It tells me where we're going.",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "9:52",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=592s"
+    },
+    {
+      "id": "NYFGCESmikA-0007",
+      "start": 697.668,
+      "end": 792.51,
+      "text": "[11:37] going. I'm telling it the problem I have. I'm telling it the fuzzy,\n[11:41] vague idea I have. It tells me where we're going.\n[11:47] It tells me which path to take, and I will still look at it\n[11:50] because I'm a curious person and I like computers and I like the outcome of it,\n[11:55] but I really kinda don't have to. I've become optional in the part that\n[12:01] produces the code that picks the route. Remember when early GPS systems came out?\n[12:09] They were amazing compared to looking at a map, but you still wanted to pay\n[12:12] attention. Is it gonna drive you in the harbor? I remember these newspaper\n[12:16] articles. \"Ah, GPS, they're terrible because people don't pay attention, they drive in the\n[12:20] harbor.\" When was the last time GPS drove anyone in the harbor? Like, that just doesn't happen\n[12:24] anymore. In fact, the cars now just drive themselves, right? And this is where\n[12:28] we've arrived at now, that I can trust.\n[12:33] For the domain I'm working in right now, I can trust it,\n[12:36] and feel completely confident that it's gonna have my\n[12:40] back. It's not gonna do something stupid, and if it does something stupid, it's gonna be\n[12:44] able to recover.\n[12:45] - Mm-hmm. We should mention that there's all kinds of domains that-\n[12:48] - Correct\n[12:48] - ... programmers operate in. There's...\n[12:51] I actually don't know, but I think the most common\n[12:55] domain in development is, like, web dev CRUD. You have a database.\n[13:00] You have a user-facing interface, and it does something back and forth,\n[13:04] and it could be internal to just one person, to multiple people,\n[13:08] to a small number of people, or to the world. And I think for that,",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "11:37",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=697s"
+    },
+    {
+      "id": "NYFGCESmikA-0008",
+      "start": 784.62,
+      "end": 883.14,
+      "text": "[13:04] and it could be internal to just one person, to multiple people,\n[13:08] to a small number of people, or to the world. And I think for that,\n[13:13] it's-- I mean, you could really get to the 100% of\n[13:17] code written by AI and really if you're a good\n[13:21] programmer and you have a good intuition about what's happening behind the scenes,\n[13:25] you can legitimately not look at the code, at least that's, that's\n[13:29] been my experience. I don't know how much,\n[13:33] prior experience with programming you need to have to kinda\n[13:36] know that things are working correctly behind the scenes, like intuitively\n[13:40] by observing the ripple effects, the symptoms of the system. But I\n[13:46] think for that domain, it's close to 100%, and then there's domains like you're\n[13:52] also operating in, which is writing a Linux distribution. There, maybe there's\n[13:56] more because you're obsessed with speed and all that kind of\n[14:00] stuff. There, maybe you need to look at the code a little bit more. Then there's maybe safety\n[14:04] critical systems all the way down to operating a nuclear power\n[14:08] plant or a self-driving car. Maybe you need to look at the code more carefully.\n[14:12] - Yes, but that said, AI is insanely capable at both finding- ... and fixing\n[14:19] security vulnerabilities. This was the whole blowup about Fable. This model was\n[14:23] so capable of finding holes that a\n[14:27] an attacker could exploit that it was simply not safe to release.\n[14:30] So the irony here is that when you look at that field, it\n[14:34] seems like we've reached levels of intelligence that\n[14:39] virtually no human can match because",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "13:04",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=784s"
+    },
+    {
+      "id": "NYFGCESmikA-0009",
+      "start": 874.64,
+      "end": 989.1600000000001,
+      "text": "[14:34] seems like we've reached levels of intelligence that\n[14:39] virtually no human can match because\n[14:43] many of these security holes are about stringing combo moves together.\n[14:47] You find one little\n[14:49] vulnerability here that by itself might not be the worst thing in the world, but then you\n[14:53] combine it with four others, and suddenly you have RCE, remote command execution.\n[15:00] Humans who are able to do that are very rare. They\n[15:04] usually work inside state-sponsored organizations or other clandestine operations.\n[15:11] They're not just out and about finding things.\n[15:14] So they've gotten so good at that. The Linux distribution\n[15:18] is why I've gotten 100% AI pilled. Because I've been working on Omarchy for the last\n[15:26] three months, this version that just dropped a few days ago called Quatro.\n[15:31] And almost right from the beginning I'm working on that version,\n[15:35] the agent acceleration neared 100%, and in the last\n[15:39] two months it has been 100%. I have not written-\n[15:42] - Really?\n[15:43] - ... any of the code that's shipped in Quatro by hand. I've reviewed the shape\n[15:51] of all of it.\n[15:52] I've reviewed the individual lines of anything that's critical in the model\n[15:56] layer of the system, and I've not looked at a bunch of the UI code.\n[16:02] I have not looked at a bunch of the auxiliary code, and\n[16:06] I've not written any of the new functionality entirely by hand. But then\n[16:13] the web part, actually evolving Basecamp and Hey, our\n[16:17] professional products that have lots of users and are relatively large code\n[16:21] bases, have proven surprisingly tricky\n[16:25] to fully accelerate with agents. We just released",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "14:34",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=874s"
+    },
+    {
+      "id": "NYFGCESmikA-0010",
+      "start": 981.42,
+      "end": 1081.3039999999999,
+      "text": "[16:21] bases, have proven surprisingly tricky\n[16:25] to fully accelerate with agents. We just released\n[16:29] Basecamp 5 not too long ago. That was the first\n[16:32] product at 37signals that was really agent accelerated.\n[16:36] Because we were in this final sprint phase from around\n[16:40] February. By then, agents were already good.\n[16:44] And we had this early surge of, \"It's solved. We can just have the\n[16:49] designers do the programming. They know what features they want. They know what shape\n[16:53] they want it to take. Let's just-- Let them vibe.\" And we let them vibe.\n[16:59] And we ended up with a lot of PRs that individually perhaps could have been\n[17:05] justified for a hot moment, taken all together,\n[17:09] destroyed the architecture of the system.\n[17:10] And we actually had to clean up manually, mop it up by\n[17:14] hand, by human hand, to get back to an architecture that\n[17:17] felt cohesive and coherent. So we still\n[17:21] have a bit of that-- that was February, by the way. Things are quite different now.\n[17:25] - Well, hold on a second. What's the lesson from that? Is one of the lessons from that that you have to be\n[17:29] a programmer at this stage to be able to vibe code?\n[17:33] - To be able to vibe code on existing substantial\n[17:38] - I see.\n[17:38] - ... code bases, even if they're crud, if you wanna\n[17:41] retain the element of architecture that got that system to where it was.\n[17:45] Now, that's also a point where I've stressed many\n[17:49] times that when people accuse vibe coders of\n[17:53] being slob generators, I go right back at them and say, \"Have you\n[17:57] looked at the average programmer's output?\" That is some",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "16:21",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=981s"
+    },
+    {
+      "id": "NYFGCESmikA-0011",
+      "start": 1073.38,
+      "end": 1183.204,
+      "text": "[17:53] being slob generators, I go right back at them and say, \"Have you\n[17:57] looked at the average programmer's output?\" That is some\n[18:01] other slob too. If you've looked at behind the scenes of many\n[18:05] great companies and what their code bases look like after there's\n[18:08] been 3,000 humans through them, they're awful. Absolutely awful.\n[18:14] - Can you tell me the intuition you have?\n[18:17] I seem to just, stepping back and observing the different apps that we all rely\n[18:21] on, I don't know, Adobe Photoshop, all this kind of stuff. There seems to be the\n[18:24] progress on development there has not accelerated.\n[18:29] So why is it, what lessons can you draw from Basecamp, like\n[18:32] well-established, huge user base?\n[18:35] Why aren't we seeing, like, super rapid increase in, like,\n[18:39] new updates, features, all this kind of stuff in these well-established apps?\n[18:44] - Multiple reasons. I'll start with the first one that's the most critical. As\n[18:48] soon as you're having human teams work together on\n[18:51] something, the bottleneck is rarely\n[18:55] implementation. It's human bandwidth and communication.\n[18:59] When you have a product manager and a couple of designers and a VP above them and a\n[19:06] CTO above them, and everyone wants to be part\n[19:10] of the shaping process because we're all justifying why we're here,\n[19:14] that's where all the productivity goes to die. The revelation I've had working on\n[19:22] Omarchy the last three months is that to get that magical 10X,\n[19:30] 100X, in a few rare cases, 1000X productivity boost, you have\n[19:37] to interact with the agents directly, and you cannot intermediate that",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "17:53",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1073s"
+    },
+    {
+      "id": "NYFGCESmikA-0012",
+      "start": 1170.404,
+      "end": 1279.404,
+      "text": "[19:30] 100X, in a few rare cases, 1000X productivity boost, you have\n[19:37] to interact with the agents directly, and you cannot intermediate that\n[19:44] bandwidth with another human because it's simply too slow.\n[19:49] And on the one hand, that's a bit of a bummer. I mean, I like\n[19:53] humans, and it's great to work together. But it also means we need to temper\n[19:57] our expectations with what these agents can do if\n[20:01] it's humans driving it, and you have three layers of approval and all the\n[20:05] other machinery of a large corporation. The implementation part is only a small\n[20:13] segment of it. The other thing I'd say is that most organizations don't know what\n[20:20] they want. They don't know how to make it better. They're not\n[20:24] bottlenecked on implementation. They're bottlenecked on\n[20:28] ideas. They're bottlenecked on vision. They're bottlenecked on\n[20:32] taste. And if you don't have those element\n[20:36] in excess of your implementational capacity,\n[20:40] it doesn't help. So you can make a lot of shitty ideas come true, then what?\n[20:44] Are you gonna ship that?\n[20:46] That sounds like, I don't know, something coming out of Microsoft. That's not what we're trying to\n[20:50] replicate here. That process is not actually... Because we already had\n[20:54] this. If you step back for a moment and think of\n[20:58] the towering organizations we have who have had tens of\n[21:03] thousands of programmers at their disposal.\n[21:06] I mean, I'm picking on Microsoft here. I love Microsoft some of the time, but I'll pick on\n[21:10] them in this case because they have had endless resources, endless\n[21:14] programming capacity for decades, right? This is what's",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "19:30",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1170s"
+    },
+    {
+      "id": "NYFGCESmikA-0013",
+      "start": 1270.644,
+      "end": 1368.114,
+      "text": "[21:10] them in this case because they have had endless resources, endless\n[21:14] programming capacity for decades, right? This is what's\n[21:20] showing us that just being able to write a lot of code does not\n[21:23] produce great compelling software. Now, the other thing is\n[21:29] we've had this capacity for about six months. That's not very long in human\n[21:37] life cycle capacity of internalizing what's going on.\n[21:40] And I think it's actually funny that the critique of AI is,\n[21:45] why isn't it going faster?\n[21:47] What are you talking about? We've not had any other form of progress that has moved as fast\n[21:51] as AI, and you're impatient because in the last three months we haven't\n[21:54] rewritten the whole world and made it a utopia of software goodness?\n[21:59] - You're basically saying everybody should be switching to Linux now. One of the arguments is,\n[22:03] like, we can rewrite all the software that's not available in Linux in Linux.\n[22:06] Linux has been the love of my life for many years, but one of the reasons I'm still attached to Windows and\n[22:10] now, uh, Mac is because of video editing, Premiere.\n[22:15] - We're gonna fix that. But-\n[22:17] - So the question is, who's gonna build Premiere\n[22:20] and Photoshop for Linux? And it feels like one person can now.\n[22:27] - 100% one person can.\n[22:28] - And so, and I'm allowed to be impatient. In fact, me or anyone else,\n[22:35] impatience is the first step of doing it yourself, right? Like-\n[22:40] - Correct.\n[22:40] - ... and there's a community of tens of thousands of people that use Adobe\n[22:44] Premiere or DaVinci, all these non-linear video editors, that",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "21:10",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1270s"
+    },
+    {
+      "id": "NYFGCESmikA-0014",
+      "start": 1360.544,
+      "end": 1460.392,
+      "text": "[22:40] - ... and there's a community of tens of thousands of people that use Adobe\n[22:44] Premiere or DaVinci, all these non-linear video editors, that\n[22:48] know the frustrations. Everybody shares them. You can look at Reddit. You can look at\n[22:52] the forums. Everybody knows it. Uh, I don't know what it is. It may be the\n[22:55] management. It may be the meetings. All the things you've always discussed is the,\n[23:00] The bureaucracy that's inside companies that's slowing\n[23:04] everything down in the development of features. But it feels like\n[23:08] there-- if you just let some of the developers loose with a bunch of agents,\n[23:12] you can fix all that. But again, based on everything you're saying,\n[23:16] maybe the way to do that is to start over from scratch, maybe through open\n[23:21] source, or somebody launches a new company that within\n[23:25] large companies now it's hard to,\n[23:29] to really accelerate into the agentic era by letting developers just build.\n[23:33] - This is the classic innovator's dilemma. These companies have gotten so good,\n[23:39] so established at the old way, and therefore their entire\n[23:43] structure, management layers, processes are tuned for a time that no longer exists.\n[23:52] But you can't pivot that. These are super tankers. It\n[23:57] just doesn't happen. This is why\n[24:00] we're finally getting this upset in the technology industry.\n[24:04] For a while, I was very upset about the duopoly\n[24:08] between Apple and Google on mobile, because it felt like mobile was the most\n[24:12] important computing platform that we had, and I could not see\n[24:16] a path to unseat either Google or Apple",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "22:40",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1360s"
+    },
+    {
+      "id": "NYFGCESmikA-0015",
+      "start": 1452.752,
+      "end": 1557.142,
+      "text": "[24:12] important computing platform that we had, and I could not see\n[24:16] a path to unseat either Google or Apple\n[24:20] sitting on top of that, controlling everything, taking their toll booth money.\n[24:26] But the game has changed. This is no longer the most important\n[24:30] platform. Mobile phones are important, but there's also a lot of\n[24:34] other form factors coming, whether it's glasses or it's\n[24:38] earpieces or whatever else have you.\n[24:41] It's all in play now, but the computing platforms\n[24:44] themselves are in play for the first time in\n[24:48] probably 40 years, if you look at the desktop. Linux has been around since '91.\n[24:54] It's not taken off or taken over on the desktop. It's taken\n[24:58] over everything else. All the devices you have on your desk, your\n[25:02] fridge, your toaster, everything runs Linux,\n[25:05] except for your computer. Now, funnily enough, your Android is actually Linux, but\n[25:12] wrapped so sufficiently that you can't really recognize\n[25:15] it. But now there's an opening, and the opening\n[25:19] is exactly as you say it. If there's a piece of software you\n[25:23] depended on that bound you to Windows, it is completely within reach for\n[25:30] you personally to start rewriting it. And maybe you won't get to\n[25:34] 100% coverage, but this is the old joke about Microsoft Office.\n[25:38] \"I only use 5%.\" Yeah, well, we all use a different 5%.\n[25:42] Well, what if we all just build our own 5%?\n[25:45] What if I just took the functionality that I need and just did\n[25:49] that? That is a completely different challenge and\n[25:53] one agents are incredibly capable of doing right now,",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "24:12",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1452s"
+    },
+    {
+      "id": "NYFGCESmikA-0016",
+      "start": 1549.702,
+      "end": 1646.0120000000002,
+      "text": "[25:49] that? That is a completely different challenge and\n[25:53] one agents are incredibly capable of doing right now,\n[25:57] today, and I've done it a lot of times over. So one of the\n[26:01] amazing things I've found with the latest agent engaged is I have\n[26:04] become a polyglot programmer, something I was absolutely not before. I was a Ruby\n[26:13] programmer-- ... first and foremost, and then I dabbled a little bit in Bash--\n[26:17] ... when I had to. And in the last two months, I've\n[26:20] written C++. I've written three applications that have\n[26:24] shipped in Omarchy Quattro. I wrote a\n[26:29] writing app. I was using this app called Typora, which is a very nice app-\n[26:32] - Great, great app\n[26:33] - ... which in itself is based on another app called iA Writer, which was my real\n[26:37] love on the Mac- ... for a clean, simple Markdown\n[26:42] writing environment. That's where I write all my essays.\n[26:45] And then I moved to Linux, and I couldn't get iA Writer,\n[26:48] so I moved over to this other tool called Typora. It was a piece of\n[26:51] shareware, and it had a lot of features I just didn't need. And about\n[26:58] six weeks, seven weeks ago, I thought, \"Do you know what? I only need 5% of Typora,\"\n[27:02] which is already a basic app.\n[27:04] I literally told the agent to get going, that I wanted it written in\n[27:07] C++ and Qt, because that would fit well with the\n[27:11] aesthetic of what I was building with Quattro.\n[27:14] And in, I think, about 20 minutes, it had the first version. I\n[27:18] started using it, and it wasn't quite right. Within two days,\n[27:22] I'd given up Typora, and I wrote and have written",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "25:49",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1549s"
+    },
+    {
+      "id": "NYFGCESmikA-0017",
+      "start": 1638.252,
+      "end": 1731.7920000000001,
+      "text": "[27:18] started using it, and it wasn't quite right. Within two days,\n[27:22] I'd given up Typora, and I wrote and have written\n[27:26] all of my essays since that moment in Omawrite.\n[27:30] - Can I ask for your advice and your vision about something? So what I find\n[27:34] with agents, you can actually write something like a replacement for\n[27:37] Typora that is perfectly customized to you, to your needs-\n[27:42] - Correct with just one user in mind. And then there's a version of that that is-\n[27:50] starts with one user in mind but expands to a larger audience. So I've actually\n[27:53] written a large number of software just for me, and I find it\n[27:58] easier to do and better to get my situation done. For\n[28:01] example, I have a video editor I've written, which is very easy to do just for me.\n[28:06] - I've never, unlike you, built something that's used by a large number of\n[28:10] people, and I find that a bit scary and intimidating. So,\n[28:14] like, at this, with this agentic age, how do you take a step\n[28:18] to actually build something that solves your problem, which I think is a\n[28:22] beautiful way to build,\n[28:24] but also expand it to actually useful for other people? Like, is there\n[28:28] advice you can give, and do you also see the problem of how\n[28:32] easy it is to just build a tool for yourself?\n[28:35] - Yes, but it is simpler than you think. By the time you're done\n[28:39] building the tool for yourself, you simply tell your agent to put it on GitHub.\n[28:43] You don't even have to do anything else. It will figure out how to put that repo on\n[28:47] GitHub. It'll write a nice README. It'll start using GitHub releases so",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "27:18",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1638s"
+    },
+    {
+      "id": "NYFGCESmikA-0018",
+      "start": 1723.992,
+      "end": 1826.922,
+      "text": "[28:43] You don't even have to do anything else. It will figure out how to put that repo on\n[28:47] GitHub. It'll write a nice README. It'll start using GitHub releases so\n[28:51] that you can track things. It'll actually be a better software\n[28:55] maintainer than you could ever be-\n[28:57] ... because it is far more patient, it is far more diligent in\n[29:00] doing the drudgery of managing open source software than you are.\n[29:05] And you can simply get on with the joy\n[29:09] of using the software that you built and evolving it as you see fit. Now,\n[29:13] this gets into the big argument we've been having in open source for a while. Is\n[29:18] AI contributions good or bad for the maintainer?\n[29:23] There's a lot of maintainers right now who are quite\n[29:26] upset about the fact that they're suddenly\n[29:30] getting a huge influx of pull requests, of\n[29:34] contributions from people who may not be the best programmers or programmers at all-\n[29:41] ... towards their software. I look at that argument and go, \"Are you kidding me?\"\n[29:47] Here is a vein of free contributions that you can take or don't take,\n[29:57] but you're complaining about the fact that they're there? It sounds straight\n[30:01] out of- My steak is too juicy and my lobster too\n[30:04] buttery. What are you complaining about?\n[30:07] This is the most amazing thing. This is what we proclamated for so\n[30:11] long was going to be the magic of open source, that we could\n[30:15] all contribute to it, but it was, of course, never true. There was only a small\n[30:19] subset of people who contribute to open source, and that was the very highly skilled\n[30:22] wizards. So this is a bit of a reformation moment. We had this",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "28:43",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1723s"
+    },
+    {
+      "id": "NYFGCESmikA-0019",
+      "start": 1819.032,
+      "end": 1914.072,
+      "text": "[30:19] subset of people who contribute to open source, and that was the very highly skilled\n[30:22] wizards. So this is a bit of a reformation moment. We had this\n[30:26] disintermediation between us and the computer, and it was this\n[30:31] class of clerics and priests called programmers,\n[30:35] and suddenly they're being disintermediated here by was\n[30:39] it the 95 theses by Luther in 1500s,\n[30:43] nailing them to the door? And one of those was very clearly about\n[30:47] the intermediation, that you should have direct access to the higher intelligence.\n[30:51] - Mm-hmm. But don't you need the wizards to keep a high bar of excellence in the code\n[30:55] base?\n[30:56] - 100% you do, which is also something that's always been true about open\n[31:00] source, which is the second argument that really grinds me. I've been\n[31:03] running open source projects for 25 years. I have literally looked\n[31:07] at the output of thousands, if not tens of thousands of\n[31:11] programmers. I feel like I have the statistical basis to\n[31:15] assert that most programmers, they suck.\n[31:21] And I don't mean that in the way it sounds.\n[31:24] That was why I paused for a hot second here. I mean, they suck in the sense\n[31:28] that they don't write the code I want to have written. They don't\n[31:32] prepare their bug reports with all the relevant\n[31:35] information. They don't detail their pull requests with the\n[31:39] why. They don't bother to fill in\n[31:42] needed code comments. They don't double-check their work. They don't\n[31:46] write unit tests. They don't do all of these things it takes to create\n[31:50] good software. But do you know who'll do all that stuff? Agents,",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "30:19",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1819s"
+    },
+    {
+      "id": "NYFGCESmikA-0020",
+      "start": 1906.312,
+      "end": 2009.452,
+      "text": "[31:46] write unit tests. They don't do all of these things it takes to create\n[31:50] good software. But do you know who'll do all that stuff? Agents,\n[31:54] if you tell them to. They're very diligent at following your instructions,\n[31:58] most of the time, sometimes to a fault. But it actually means that if you take\n[32:02] the median programmer and their pull requests towards\n[32:06] an average open source project,\n[32:09] they're already getting outclassed by agents. I would\n[32:12] rather get an agent-written pull request to one of my\n[32:16] projects than I'd get one written by a human, and it's not just\n[32:20] because the quality's better. It's also because\n[32:24] I feel a lot less bad if I just reject it. You didn't even\n[32:28] write it, so I can simply look at what your agent wrote on your behalf and\n[32:31] go, \"Eh, don't want it.\"\n[32:36] That's always been true in open source, and in fact, I think this is one of the problems with\n[32:40] open source maintainers. They have way too much ball of neuroticism and anxiety that\n[32:48] requires them to look upon any contribution as an obligation on their part to do\n[32:56] everything to get that to land in the code base. That's not\n[33:00] true at all. You can simply say, \"No,\" or even better, you can say, \"No, thank you.\"\n[33:05] And if you get into the mode of realizing that your project\n[33:10] is allowed to exist and evolve according to your\n[33:13] vision, according to your roadmap, it becomes so much\n[33:17] easier in the agentic age to decline the contributions you don't\n[33:21] want because you don't even inconvenience or hurt\n[33:25] the feelings of a human. It's just a clanker, and the clanker won't",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "31:46",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=1906s"
+    },
+    {
+      "id": "NYFGCESmikA-0021",
+      "start": 2001.752,
+      "end": 2107.902,
+      "text": "[33:21] want because you don't even inconvenience or hurt\n[33:25] the feelings of a human. It's just a clanker, and the clanker won't\n[33:29] mind. In fact, the producers of clankers, the\n[33:33] labs, love when you spend tokens in vain. They get paid just the same.\n[33:39] So, in my opinion, this is the absolute best\n[33:42] time to ever have been an open source software maintainer.\n[33:46] Not only do we get this wealth of glorious pull requests made by\n[33:53] agents with all the boxes ticked, we also get to tap into a\n[33:57] creativity of people who did not have access to contribute to a project before.\n[34:02] I've been running the Omarchy project now for a little over a year,\n[34:07] and in the last three months working on Quattro, I have merged over 1,000 pull\n[34:11] requests. Quite a lot of those pull requests were written by people who were\n[34:16] not classical programmers, or were programmers in other domains, not\n[34:21] Linux operating system or distribution development.\n[34:25] They were able to contribute their good ideas because of agents, and I got\n[34:29] to cherry-pick the very best of that- ... because it was there. Otherwise, those\n[34:36] ideas would just have lived inside their heads. Again,\n[34:40] Is- that is not the purpose of open source, that we tap into the collective\n[34:43] intelligence and creativity of the whole goddamn planet,\n[34:48] and we channel that towards a commons\n[34:51] where we all benefit from the combined efforts of everyone.\n[34:56] Now, there's currently, I think, about 400 unmerged pull requests on Omarchy,\n[35:01] about double what it was a week ago. So the acceleration is\n[35:05] real, but so are the tools.",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "33:21",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2001s"
+    },
+    {
+      "id": "NYFGCESmikA-0022",
+      "start": 2101.572,
+      "end": 2207.03,
+      "text": "[35:01] about double what it was a week ago. So the acceleration is\n[35:05] real, but so are the tools.\n[35:08] I'm not reviewing every pull request anymore. I haven't been reviewing them for\n[35:12] quite some time now. I have the agents- ... review them for me-\n[35:17] ... and then they will give me a summary about whether something is ready for the\n[35:20] decision, the human decision. Should we merge or should we not merge?\n[35:25] I don't need to look at all the pull requests that are either wrong, duplicated,\n[35:30] bad. An agent can sort that chaff away from me. I just get to look at the pearls-\n[35:36] ... the good ideas that are ready to go, the bug\n[35:39] fixes that the agent has validated in a VM on my behalf.\n[35:44] All the drudgery of replicating and managing open source\n[35:47] projects is evaporating at lightning speed, and we are left with the,\n[35:55] with the golden juicy parts, the bone marrow of software development-\n[35:59] ... deciding what should this thing do and where should it go.\n[36:03] - Do you think the good ideas, ultimately the kernel of the good ideas\n[36:06] originated in the human mind, so the individual contributors\n[36:11] Like, can it be done by agents, or is the PR ultimately requires a human idea?\n[36:18] Like how to improve Omarchy,\n[36:21] all those incoming... Or can it all just be a pool of agents?\n[36:24] - That was the mode and the way I was thinking about agents\n[36:28] in the first agentic age from November 24 to February 28.\n[36:35] I thought all the ideas would originate with the humans. They would tell\n[36:39] their agents what to build, and off they went.\n[36:43] I don't think that's true anymore at all. I have seen things you people wouldn't",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "35:01",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2101s"
+    },
+    {
+      "id": "NYFGCESmikA-0023",
+      "start": 2199.74,
+      "end": 2312.16,
+      "text": "[36:39] their agents what to build, and off they went.\n[36:43] I don't think that's true anymore at all. I have seen things you people wouldn't\n[36:47] believe, ideas coming out of models so great that it makes me humble-\n[36:54] ... as a person who otherwise prides himself on having good ideas.\n[36:59] The agents are incredibly capable of creative thought,\n[37:04] and folks who are still stuck in the analysis that agents are parrots-\n[37:11] ... just regurgitating the ideas that are\n[37:15] already there are delusional about the progress that's been made in\n[37:19] the last six to nine months.\n[37:21] - So some people listening to you right now will say DHH is suffering from the old case\n[37:25] of AI psychosis. Can you steel man the case that you are in fact experiencing in\n[37:33] a state of delusion, like One Flew Over the Cuckoo's Nest, and can you argue against it?\n[37:37] - I'm in a state of delirium. That's what the state I'm in.\n[37:41] Because I have been working with computers for 40 years,\n[37:47] and I've never seen the things that I've seen in just the last two months.\n[37:54] A whole career, a whole life dedicating to the love of computers as my main\n[38:02] focus for the working hours and then some,\n[38:05] suddenly completely upended, suddenly completely rewritten. Of course I'm delirious.\n[38:11] Who looking at this reality is not? If you are not delirious or at the very least\n[38:19] very excited... Actually, I guess that's not even true. If you're not recognizing\n[38:23] the gravity of the moment, that's the delusion. That's the\n[38:28] psychosis. The psychosis is believing that the world is barely different. We",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "36:39",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2199s"
+    },
+    {
+      "id": "NYFGCESmikA-0024",
+      "start": 2303.08,
+      "end": 2408.04,
+      "text": "[38:23] the gravity of the moment, that's the delusion. That's the\n[38:28] psychosis. The psychosis is believing that the world is barely different. We\n[38:32] just have some electronic parrots reciting things to us. Now, in my opinion, the\n[38:39] reason this argument is actually brought up is because people are not able to see\n[38:43] the fruits of the progress. That goes to your point earlier.\n[38:47] Where is the amazing software? Why isn't American GDP running at 12% year over year?\n[38:55] First of all, give it a minute. It hasn't even been a year, goddammit.\n[39:01] But second of all, I feel on my own account, I have actually brought the pudding.\n[39:08] Omarchy Quattro launched on Friday. It's been\n[39:11] downloaded by tens of thousands of people. And they like it. They like it a lot.\n[39:17] - We should mention that going to Perplexity here, Omarchy is a highly\n[39:21] opinionated Arch Linux-based desktop distribution centered on the Hyprland\n[39:25] Wayland tiling compositor. It was created by David\n[39:28] Heinemeier Hansson, DHH, as a polished\n[39:32] developer workstation set up with a cohesive visual\n[39:35] style and many everyday tools already configured.\n[39:39] - Let me put it. Omarchy is a beautiful, modern, and opinionated Linux system.\n[39:45] It's an alternative operating system to macOS and Windows,\n[39:49] and it's freaking amazing.\n[39:50] - And the Quattro thing is you're pushing towards the age of agents.\n[39:54] - That's right. That's the latest version that we just dropped out, which is also funny.\n[39:58] The Omarchy project is only a year old and a\n[40:02] little bit. I started it last summer in between sessions at the 24 Hours of Le Mans-",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "38:23",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2303s"
+    },
+    {
+      "id": "NYFGCESmikA-0025",
+      "start": 2398.3,
+      "end": 2506.969,
+      "text": "[39:58] The Omarchy project is only a year old and a\n[40:02] little bit. I started it last summer in between sessions at the 24 Hours of Le Mans-\n[40:08] ... where I had watched one too many YouTube videos on\n[40:12] Linux Rising and got bitten by that bug. Started working\n[40:16] on this second iteration of my\n[40:19] attempt at creating a better Linux operating system. The first iteration we talked about\n[40:23] last time was called Omakub, was built on top of an existing system called\n[40:27] Ubuntu, and it was fine. But the ambition I was able to pour into the new\n[40:33] version, Omarchy, because I started seven layers deeper down the\n[40:37] stack, was completely different, but it was still done in a pre-agentic\n[40:41] world. I wrote all those batch scripts by hand in the beginning,\n[40:47] and then I got to see the midway point where things changed over.\n[40:52] I did a couple of versions of Omarchy that had partial agent\n[40:56] acceleration, and then three months ago,\n[40:59] it was full throttle, 100%, everything is written by agents but steered by me.\n[41:04] And that just ended up being\n[41:07] a very different experience and a very different operating system\n[41:11] because I was suddenly granted a limitless ceiling on my ambition.\n[41:17] I could look at any feature in Windows, on Mac, on other Linux systems and say, \"I\n[41:25] want that,\" and the agents would deliver. So everything I wanted was suddenly\n[41:31] within reach, which meant that I got a little delirious.\n[41:36] Who would not get delirious if suddenly a genie pops out of the bottle\n[41:40] and says, \"You can have whatever you want. Every feature\n[41:44] you've ever dreamed of in an operating system-",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "39:58",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2398s"
+    },
+    {
+      "id": "NYFGCESmikA-0026",
+      "start": 2500.5,
+      "end": 2608.572,
+      "text": "[41:40] and says, \"You can have whatever you want. Every feature\n[41:44] you've ever dreamed of in an operating system-\n[41:47] ... I can deliver them to you, most of them in five minutes, a few in\n[41:51] 20, and if we really go hog wild, it's gonna take me two hours.\"\n[41:54] - Mm-hmm. Have you seen Requiem for a Dream, the movie? So the,\n[41:58] There's a drug-like effect here.\n[42:00] I find it personally-- We'll talk about many levels of this, but it is overwhelming\n[42:07] how much power is placed in our hands so suddenly,\n[42:11] and it's very hard to know, it's like with \"The Hobbit\" or something, what to do\n[42:15] with it, and I find myself truly overwhelmed with the multitasking,\n[42:20] On the verge of almost burnt out. Super excited about so many things, but ultimately\n[42:28] looking back, you want to focus on one thing and really ship\n[42:31] - I don't have that sense. I don't have the sense of overwhelm. I don't have the\n[42:35] sense of dread. I don't have the sense of distortion because I have a mission.\n[42:42] I'm going somewhere, and therefore, I can channel all this new power towards-\n[42:48] - Yeah, it's wonderful\n[42:48] - ... a singular goal and outcome, creating the perfect\n[42:51] computer. And therefore, all my investigations with AI are focused towards\n[42:59] that end. Now, I also have a day job.\n[43:02] And we also use agents there, and that's also targeted towards sort of\n[43:06] specific outcomes. But with the Omarchy experience, I got to tap in\n[43:14] straight in the back of my head and increase\n[43:18] the bandwidth between ideas arriving in my\n[43:21] brain and software emerging on the screen. It was like going from dial-up-",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "41:40",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2500s"
+    },
+    {
+      "id": "NYFGCESmikA-0027",
+      "start": 2598.272,
+      "end": 2698.0919999999996,
+      "text": "[43:18] the bandwidth between ideas arriving in my\n[43:21] brain and software emerging on the screen. It was like going from dial-up-\n[43:28] ... to fiber. I think on your podcast, Elon talked about the actual human bandwidth-\n[43:35] ... that Neuralink and other projects are trying to accelerate.\n[43:39] Like, the bandwidth we're communicating over right now is quite low because\n[43:46] we're limited by our cognition. We're limited by the rate of\n[43:50] speech. You're not limited by those things when you're working with a\n[43:53] swarm of agents. Now, let me caveat this by saying,\n[44:00] if I'd heard myself talk like this-\n[44:03] ... nine months ago, I would probably have used the label AI,\n[44:07] AI psychosis. I think it would be fitting because\n[44:11] nine months ago when people were talking like this, they weren't shipping,\n[44:15] and I think that's the ultimate difference, that there were people who saw this\n[44:19] early. I was not actually that early. As we've talked about, I\n[44:22] was rather skeptical, and I was using AI in certain ways, but I was not\n[44:26] the first person who downloaded Claude Code. I think Boris released that in end of\n[44:30] February. I don't think I installed Claude Code until\n[44:34] September. So there was about six months there where pioneers\n[44:39] saw these glimmers of what the future was gonna look like. It wasn't there\n[44:43] yet because the intelligence wasn't there. The harnesses weren't there, but they could\n[44:46] see the glimmers. I couldn't. Tobi, Tobi Lütke, the CEO of\n[44:50] Shopify and now my partner in crime on this\n[44:54] Omarchy project in part, he's gotten pilled with Omarchy as well.",
+      "videoId": "NYFGCESmikA",
+      "timestamp": "43:18",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA&t=2598s"
+    }
+  ]
+}

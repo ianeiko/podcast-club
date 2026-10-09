@@ -1,3 +1,32 @@
+# Podcast Club
+
+A classroom discussion room built on [Narjes’s YouTube Summarizer](https://github.com/narjes-abs/cowork-youtube_summerizer). The full caption transcript of [DHH / Lex Fridman #501](https://www.youtube.com/watch?v=NYFGCESmikA) is preserved; chat searches **only 00:00–45:00** and cites timestamps.
+
+```bash
+npm ci
+cp .env.example .env.local  # fill OPENROUTER_API_KEY and a shared CLUB_PASSWORD
+npm run dev                 # http://localhost:3000
+```
+
+The prepared transcript and Chroma vector snapshot are included. Discussion uses `openai/gpt-5.1`; development uses `openai/gpt-6-luna`, both through OpenRouter. These are configurable in the environment file. In the room, enter the class passcode, ask a question, or use the transcript and discussion guide. Chat history stays in the browser tab; requests and retrieved captions go to OpenRouter.
+
+To rebuild the full transcript and the first-45-minute Chroma index:
+
+```bash
+uv venv .venv --python 3.14
+uv pip install --python .venv/bin/python -r requirements-club.lock
+npm run transcribe
+npm run ingest
+```
+
+`ingest` writes a real local Chroma database to `.club/chroma`, then exports its stored vectors for Vercel. Set `CHROMA_URL` (or the Chroma Cloud variables) to use a live server instead. The default deployed app searches the immutable snapshot; it requires no database service or running laptop.
+
+Full text: [public/transcripts/full.txt](public/transcripts/full.txt). Session text: [public/transcripts/first-45-minutes.txt](public/transcripts/first-45-minutes.txt). Structured source: [data/full-transcript.json](data/full-transcript.json).
+
+Checks: `npm test`, `npm run test:python`, `npm run build`. Real model checks (uses credits): `node --env-file=.env.local --import tsx scripts/smoke-agent.ts` (also pass `--env-file=.env` first if your key lives there). Deployment and architecture: [docs/architecture.md](docs/architecture.md#podcast-club-extension).
+
+---
+
 # Learning Panel: YouTube Summarize
 
 A small app that runs on your Mac. Paste a YouTube link and get a structured summary for fast learning: a TL;DR, sections with timestamp links, and key takeaways. Summaries are saved to a history sidebar.

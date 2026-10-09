@@ -1,0 +1,13 @@
+.git
+.env*
+node_modules
+.next
+.venv
+.club
+.claude
+panel
+tests
+scripts
+requirements-club*
+data/full-transcript.json
+docs
